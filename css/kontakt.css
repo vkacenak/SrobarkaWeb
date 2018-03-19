@@ -1,0 +1,86 @@
+.heading-wrapper{padding-top: 90px;
+  top: 50%;
+  transform: translateY(-50%);position: relative; }
+h1{text-transform: uppercase;
+
+color:white;
+font-size: 2.5em !important;
+ }
+ h6{color:#d3d3d3;}
+.photo-heading{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+overflow: hidden;
+  -moz-box-shadow:    inset 0 0 20px #000000;
+  -webkit-box-shadow: inset 0 0 20px #000000;
+  box-shadow:         inset 0 0 20px #000000;
+position: relative;
+}
+.contact-photo{height:102vh;
+  background-image: url("../img/contact-heading.jpg");
+}
+  .container{min-height: 1000px;}
+  .contact-box{width:33%;
+    min-width: 400px;
+    margin:0 auto;
+    left: 0;
+    right: 0;
+position:absolute;
+bottom:0;
+height:240px;
+background-color: white;
+
+
+}
+.contact-box ul{
+
+  padding: 30px 20px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.contact-box li{padding: 10px 0;
+transition-duration: 0.3s;}
+.contact-box img{height:40px;
+width:auto;
+display:inline;
+padding:5px;
+padding-right:10px;}
+
+
+
+.contact-info{background-color: #5e1111;
+color:white;
+padding:50px;
+height: 550px;
+}
+.contact-info h4{padding-bottom: 15px;
+font-size: 25px;
+font-weight: 700;}
+.contact-info p{line-height: 1.5;
+font-size: 16px;
+font-weight: 500;}
+.contact-contact{padding:50px;
+}
+.contact-contact p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.contact-contact h5{font-size:30px;
+  color:#5e1111;
+  font-weight: 700;
+  padding: 40px 0 10px 0;
+}
+@media (max-width: 1200px){.contact-box ul {font-size: 15px;}
+.contact-info{padding:10px;}
+.contact-info p, .contact-contact p{font-size:14px;}
+.contact-contact{padding:10px;
+
+}
+}

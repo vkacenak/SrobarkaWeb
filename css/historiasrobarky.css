@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700,900i');
+
+.Historia{ margin-top: 180px;
+  font-family: 'Playfair Display', serif !important;
+ text-align: center;}
+.historia-head{}
+  .historia-head h1{ font-size: 90px; }
+  .historia-head hr{border: 1px solid #7f7f7f;}
+.historia-obsah p {padding:50px 20px;
+
+font-size: 23px;
+line-height:1.1;
+}
+.historia-starting p::first-letter{font-size:300%;}
+.historia-border{  border-right: 2px solid #7f7f7f;}
+.historia-obsah img{width:100%;}

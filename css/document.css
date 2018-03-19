@@ -1,0 +1,38 @@
+/*************************************
+**************************************
+  DOKUMENTY
+***************************************
+***************************************/
+.heading-dokumenty{
+height:50vh;
+  background-image: url("../img/srobacont.jpg");
+text-align: center;
+}
+.document-list ul{
+margin:100px 0;
+}
+.document-list{font-size:14px;
+text-transform: uppercase;
+font-weight: 600;
+margin:100px;
+padding: 0 50px;
+width: 80%;
+   margin: auto;
+}
+
+.document-list li{	margin: 0;
+	padding: 36px 0 36px 70px;
+	list-style: none;
+	background-image: url("../img/document.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+  transition-duration: 0.5s;
+}
+.document-list li:hover{padding: 36px 0 36px 60px;
+transition-duration: 0.5s;}
+.document-list a{color:black;
+cursor:pointer;}
+@media (min-width:1200px){.document-list{width:70%;}}
+@media (max-width:768px){.document-list{padding: 0 0;
+    width: 100%;}}

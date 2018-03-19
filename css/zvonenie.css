@@ -1,0 +1,51 @@
+.container2  {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/zvonenie/blackboard.png");
+  background-size: 100% 100%;
+  border-style: solid;
+}
+
+.zvonenie{
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.zvonenie-topic{
+  color: white;
+  font-family: 'Finger Paint';
+  font-size: 7vw;
+  padding-bottom: 10px;
+  animation-delay: 0.7s;
+}
+.zvonenie-text{
+  color: white;
+  font-family: 'Finger Paint';
+  font-size: 40px;
+  line-height: 1.2;
+  animation-delay: 0.7s;
+}
+.alarm{
+  position: absolute;
+  left: 7%;
+  bottom: 9%;
+  width: 13%;
+}
+@media (max-width: 1280px) {
+  .zvonenie-topic{
+    color: white;
+    font-family: 'Finger Paint';
+    font-size: 90px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 860px) {
+.zvonenie-text{
+  color: white;
+  font-family: 'Finger Paint';
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+}

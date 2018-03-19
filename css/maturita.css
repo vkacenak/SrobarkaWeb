@@ -1,0 +1,137 @@
+.heading-maturita{
+height:50vh;
+  background-image: url("../img/srobacont.jpg");
+  text-align: center;
+
+}
+.dsd–greybox2 {
+  background-color: #cccccc;
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.dsd–greybox3 {
+  background-color: #cccccc;
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.heading-wrapper2{padding-top: 90px;padding-left: 15px;padding-right: 15px;
+  top: 50%;
+  transform: translateY(-40%);position: relative; }
+
+.heading-wrapper2 h1{
+text-transform: uppercase;
+color:white;
+font-size: 3em !important;
+ }
+
+.maturita-info{
+  padding: 20px 10px;
+}
+
+.maturita-zakladneinfo{
+  padding: 10px;
+}
+
+.maturita-box{
+  padding: 3%;
+  color: black;
+}
+
+.list-square{
+  list-style-type: square;
+}
+
+.maturita-skratky{
+  padding: 15px 5px;
+}
+
+.maturita-skratky h2{
+  padding: 0px;
+}
+
+li.text-1 {
+    line-height: 1.8;
+    list-style-type: none;
+    position: relative;     /* It is required for setting position to absolute in the next rule. */
+}
+
+li.text-1::before {
+    content: '\25A0';       /* The unicode for • character */
+    position: absolute;
+    left: -1.2em;          /* Adjust this value so that it appears where you want. */
+    font-size: 1.2em;
+    line-height: 0.8;   /* Adjust this value so that it appears what size you want. */
+}
+
+
+
+.riadneterminy ul{list-style:  square;}
+.riadneterminy li{
+padding: 5px 0;
+line-height: 1.8;
+font-weight: 600;
+font-size: 20px;}
+
+.riadneterminy{
+  text-align: left;
+  height:100%;
+  width:100%;
+  color:#7a0101;
+  padding: 5px;
+}
+
+.box-riadneterminy{
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.3);
+		background-color:  white;
+		color: white;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px){
+  .box-riadneterminy{
+      		margin:30px 0px;
+  }
+  .maturita-box{
+    padding: 5%;
+  }
+  .box-riadneterminy{padding: 0;}
+}
+
+/* LEGISLATIVA */
+.legislativa ul{list-style:  square;}
+.legislativa li{
+padding: 10px 0;
+line-height: 1.8;
+font-weight: 600;
+font-size: 20px;}
+
+.legislativa{
+  text-align: left;
+  height:100%;
+  width:100%;
+  padding: 5px;
+  padding: 15px 0;
+  line-height: 1.7;
+  font-weight: 500;
+  font-size: 18px;
+}
+.skupinypredmetov{
+  padding-left: 60px;
+  line-height: 1.7;
+  margin-bottom: 80px;
+}
+.skupinapredmetu{
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 20px;
+}

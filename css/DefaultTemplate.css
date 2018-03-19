@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+/** VSEOBECNE **/
+html {
+
+width:100%;
+height:100%;
+overflow-x: hidden;
+
+}
+body {
+font: 16px/16px "Montserrat", sans-serif;
+background-color: #fff;
+height: 100%;
+
+
+
+}
+.overflowhidden{overflow:hidden;}
+ol, ul {list-style: none;}
+
+a, a:hover {text-decoration: none;}
+
+.b{
+ border: 3px solid green;
+}
+
+.container{
+	background-color: #fff;
+	width: 100%;
+
+
+}
+/*****background no repeat cover center*****/
+.bgNRCC{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+iframe.prijimackydoc {width:100vw;
+height:100vh;
+margin-top:160px;}
+
+/*************************************
+**************************************
+  NAV PANEL
+***************************************
+***************************************/
+.navbar{
+  background-color:rgba(255, 255, 255, .9);
+}
+.form-control{border-width: 2px; border-color: grey;}
+
+/*** LOGO ***/
+.navbar .navbar-brand {
+  margin-top: 5px;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+
+}
+.navbar .navbar-brand img{
+  width: auto;
+  height: 120px;
+	margin: 15px 0 0 0;
+		transition-duration: 0.5s;
+}
+/*** LINK STYLING ***/
+nav ul{
+  width:44%;
+  text-align: center;
+  margin:0;
+  padding:0;}
+
+.nav>li{
+   color:#fff;
+   margin-left: auto;
+   margin-right: auto;
+   width:25%;
+
+}
+.navbar .nav > li > a {
+  position: relative;
+  color: #a30013;
+  text-transform: uppercase;
+  padding: 20px 10px 20px 10px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor:pointer;
+
+}
+
+
+
+
+.nav >li >a:hover
+{
+  background-color: #a30013;
+  color: #fff;
+  z-index: 2;
+
+}
+
+
+
+/***** DROPDOWN STYLING ****/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+		width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+		text-align:center;
+    visibility: hidden;
+
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+		text-align:center;
+    visibility: hidden;
+
+}
+
+.dropdown-content a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #a30013 ;
+  padding: 10px 8px;
+  margin-top: 0;
+  display: block;
+	font-size: 13px;
+}
+
+.dropdown-content2 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #a30013 ;
+  padding: 10px 8px;
+  margin-top: 0;
+  display: block;
+	font-size: 13px;
+}
+
+@media (min-width: 1120px) {
+.dropdown:hover .dropdown-content {
+    display:block;
+    visibility: visible;
+}
+.dropdown2:hover .dropdown-content2 {
+    display:block;
+    visibility: visible;
+		left:100%;
+		top:0%;
+}
+}
+
+.dropdown:hover a {
+	color: white !important;
+background-color:  #a30013; }
+
+
+.dropdown-content a:hover, .dropdown-content > li:hover{
+color: #a30013 !important;
+background-color: white ;
+transition-duration: 0.5s;}
+
+
+
+.dropdown2:hover a .dropdown-content2 {
+    display:block;
+    visibility: visible;
+}
+
+.dropdown2:hover > a{
+	color: #a30013 !important;
+background-color: white ; }
+
+
+.dropdown-content2 a:hover {
+color: #a30013 !important;
+background-color: white ;
+transition-duration: 0.5s;}
+
+.dropdown-content2:hover .dropdown2{
+	color: #a30013 !important;
+	background-color: white ;}
+
+
+/****
+SHRINK NAVBAR
+ ***/
+
+@media (min-width: 768px) {
+ nav.navbar.shrink li > a{
+  margin-top: 10px ;
+  transition-duration: 0.5s;
+
+}
+nav.navbar.shrink img{
+   height: 60px;
+   transition-duration: 0.5s;
+	 margin: 3px 0 0 0
+}
+
+nav.navbar.shrink > ul{
+  width:46% ;
+  transition-duration: 0.5s;
+}
+
+.navbar .nav > li > a {
+	  margin: 100px 0 0 0;
+		transition-duration: 0.5s;}
+
+
+}
+
+
+
+
+
+/******************************
+**************************************
+COLLAPSED NAVBAR
+***************************************
+***************************************/
+
+@media (max-width: 1450px) {
+
+.navbar .navbar-brand img{
+	height: 100px;
+margin:0;
+}
+
+nav  ul{
+	width:41%;}
+.navbar .nav > li > a {
+	margin: 70px 0 0 0;
+	font-size: 12px;
+	padding: 20px 4px 20px 4px;
+	font-weight: 700;
+}
+
+.dropdown-content {
+		width: 130%;
+}
+
+
+
+}
+
+@media (max-width: 1100px) {
+.hamburger .line{
+width: 30px;
+height: 3px;
+background-color: white;
+display: block;
+margin: 4px auto;
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.hamburger{margin:10px 0 0 10px;
+transition-duration: 0.5s;}
+.hamburger:hover{
+cursor: pointer;
+}
+.navbar-toggle{float:left;}
+
+
+#hamburger-1.is-active .line:nth-child(2){
+opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1){
+-webkit-transform: translateY(7px) rotate(45deg);
+-ms-transform: translateY(7px) rotate(45deg);
+-o-transform: translateY(7px) rotate(45deg);
+transform: translateY(7px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3){
+-webkit-transform: translateY(-7px) rotate(-45deg);
+-ms-transform: translateY(-7px) rotate(-45deg);
+-o-transform: translateY(-7px) rotate(-45deg);
+transform: translateY(-7px) rotate(-45deg);
+}
+
+#hamburger-1 .line  {
+background-color: #a30013;
+
+}
+#hamburger-1.is-active  .line{
+background-color:white;
+transition-duration: 0.5s;}
+
+.navbar .navbar-brand img{
+	width: auto;
+	height: 50px;
+}
+nav.navbar{height:70px;box-shadow: 0 0 2px 0 #000;}
+
+	nav ul{
+		width: 100%;
+		display:block;}
+	nav li{
+		width: 100;
+		padding:0 0 0 0;}
+	nav a{
+		margin-top: 0;
+		padding:0;}
+
+
+	.navbar-collapse{
+		background-color:black;
+		opacity:0.9;
+		position: fixed;
+		top: 0;
+		transition:all 0.8s ease-out;
+		max-height: 100% !important;
+		height:100% !important;
+		width: 80%;
+		left: -1000px;
+		overflow-y:scroll;
+		overflow-x: hidden;
+		background-color: black;
+	}
+
+
+	.navbar .nav > li > a {
+		position: relative;
+		margin: 0 auto;
+		color: white;
+		text-align: left;
+		text-transform: uppercase;
+
+		font-size: 14px;
+		font-weight: 600;
+		padding: 10px 9px 10px 20px;
+	}
+	.navbar .nav > li{
+		width:100%;
+	}
+
+
+	 .nav:nth-child(1){
+		margin-top: 70px;
+	}
+
+
+	/***** DROPDOWN STYLING ****/
+
+	.dropdown-content {
+			display: none;
+			position: relative;
+				text-align:left;
+
+	}
+	.dropdown-content2 {
+			display: none;
+			position: relative;
+				text-align:left;
+
+	}
+	.dropdown-content a {
+		color: white;
+		background-color: transparent !important ;
+		padding: 10px 20px 10px 20px;
+		margin-left: 20px;
+		display: block;
+		font-size: 14px;
+	}
+	.dropdown-content2 a {
+		color: white;
+		background-color: transparent !important ;
+		padding: 10px 20px 10px 20px;
+		margin-left: 50px;
+		display: block;
+		font-size: 14px;
+	}
+
+	.dropdown-content li, .dropdown-content ul, .dropdown-content a {background-color: transparent !important;}
+	.dropdown li, .dropdown ul, .dropdown a {background-color: transparent !important;}
+	.dropdown{background-color: transparent !important;}
+	.dropdown-content{background-color: transparent !important;}
+
+
+.activedropdown{display:block;
+visibility: visible;}
+}
+
+
+.indexcity {
+z-index: 9999;
+}
+
+.rightnav {
+left: 0 !important;
+right: 0 !important;
+}
+
+
+@media (max-width: 1100px) {
+
+.navbar-header {
+		float: none;
+}
+.navbar-left,.navbar-right {
+		float: none !important;
+}
+.navbar-toggle {
+		display: block;
+}
+.navbar-collapse {
+		border-top: 1px solid transparent;
+}
+.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+		display: none!important;
+}
+.navbar-nav {
+		float: none!important;
+		margin-top: 7.5px;
+}
+.navbar-nav>li {
+		float: none;
+}
+.navbar-nav li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+.collapse.in{
+		display:block !important;
+}
+}
+
+/*************************************
+**************************************
+	FOOTER
+***************************************
+***************************************/
+
+
+
+#odkazy{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size:250%;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 20px 0 30px 0;
+}
+.bottom {
+	margin-top: 20px;
+	color:#515151;
+	background-color: #181919;
+	font-size: 16px;
+	text-align: center;
+}
+.botom p{
+	margin-bottom:3px;
+}
+
+
+.info {
+	margin-top: 50px;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	font-size: 135%;
+	font-family: "Montserrat",sans-serif;
+
+}
+.info p, .info a{
+	padding: 7px 0 7px 0;
+}
+.info a {color:inherit;
+text-decoration: none;}
+.info a:active{color:#a30013;}
+
+
+
+
+
+
+/*************************************
+**************************************
+	BACK TO TOP BUTTON
+***************************************
+***************************************/
+.cd-top {
+	z-index: 2;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: #a30013 url(../img/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+	opacity: .5;
+}
+.no-touch .cd-top:hover {
+	background-color:#871515;
+	opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+	.cd-top {
+		right: 20px;
+		bottom: 20px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.cd-top {
+		height: 60px;
+		width: 60px;
+		right: 30px;
+		bottom: 30px;
+	}
+}

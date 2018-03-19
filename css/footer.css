@@ -1,0 +1,138 @@
+
+.footerup{
+  background-color:#515151;
+  color: #ffffff;
+  width: 105%;
+  overflow: hidden;
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  display: inline;
+
+
+}
+.textkontakt {
+  text-align: right;
+  font-size: 25px;
+  line-height: 55px;
+  font-weight: 600;
+}
+
+.footerkontakt {
+  background-color: #ffffff;
+  color: #515151;
+  padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+
+    font-weight: 500;
+    letter-spacing: 3px;
+    }
+.footerkontakt:hover {
+  background-color:#515151;
+  color: #ffffff;
+  border-style: solid;
+    border-width: 3px;
+    text-decoration:none;
+}
+.footermiddle {
+  background-color: #3a3a3a;
+  color:#ffffff;
+  padding-bottom: 120px;
+  padding-top: 80px;
+  float: left;
+  width: 105%;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline;
+}
+.footermiddlenadpis{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.collummiddle{
+  width:25%;
+  float: left;
+}
+.footermiddle li {
+  list-style: none;
+  color:#ffffff;
+  margin:6px 0;
+}
+.footermiddle li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+}
+.footermiddle li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.footerbottom {
+  width: 105%;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: #303030;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.bottominfo{
+  text-align: left;
+  margin-top: 23px;
+  margin-bottom: 15px;
+
+
+}
+.bottomlegends {
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 15px;
+}
+@media only screen and ( max-width: 960px ) {
+  .footerup {
+    width: 105%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .textkontakt {
+    text-align: center;
+  }
+.footermiddle {
+  width: 105%;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footermiddle  ul {
+    text-align: left;
+    margin-bottom: 35px;
+    margin-left: 15px;
+  }
+  .footerbottom {
+    width: 105%;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 15px 20px;
+
+
+  }
+  .bottomlegends {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .bottominfo {
+      text-align: center;
+    }
+
+
+
+}

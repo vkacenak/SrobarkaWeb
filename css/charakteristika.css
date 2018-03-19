@@ -1,0 +1,41 @@
+.nadpis–box {
+  padding: 30px;
+  background-color: #7a0101;
+  height: auto;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+.heading-charakteristika{
+height:50vh;
+  background-image: url("../img/srobacont.jpg");
+  text-align: center;
+
+}
+
+
+li.text-1 {
+    line-height: 1.5;
+    list-style-type: none;
+    position: relative;     /* It is required for setting position to absolute in the next rule. */
+}
+
+li.text-1::before {
+    content: '\25A0';       /* The unicode for • character */
+    position: absolute;
+    left: -1.2em;          /* Adjust this value so that it appears where you want. */
+    font-size: 1.5em;
+    line-height: 0.8;   /* Adjust this value so that it appears what size you want. */
+}
+
+.box-5{
+  color: black;
+  padding: 4%;
+  max-width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+}
