@@ -2,7 +2,7 @@
 .footerup{
   background-color:#515151;
   color: #ffffff;
-  width: 105%;
+  width: 100%;
   overflow: hidden;
   float: left;
   padding-top: 70px;
@@ -40,20 +40,29 @@
 .footermiddle {
   background-color: #3a3a3a;
   color:#ffffff;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   padding-top: 80px;
   float: left;
-  width: 105%;
+  width: 100%;
   overflow: hidden;
   text-decoration: none;
   display: inline;
+  padding-left: 65px;
+  padding-right: 65px;
+
 }
+.footermiddle:nth-of-type(odd) {
+ padding-bottom: 80px;
+ margin-top: -20px;
+}
+
+
 .footermiddlenadpis{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .collummiddle{
@@ -64,11 +73,13 @@
   list-style: none;
   color:#ffffff;
   margin:6px 0;
+
 }
 .footermiddle li a {
   color: #ffffff;
+
   text-decoration: none;
-  font-weight: 300;
+
 }
 .footermiddle li a:hover {
   color: #ffffff;
@@ -76,8 +87,12 @@
   font-weight: 400;
   margin-left: 5px;
 }
+.footermiddle li a:active {
+  color: ##7a0101;
+
+}
 .footerbottom {
-  width: 105%;
+  width: 100%;
   overflow: hidden;
   color: #ffffff;
   background-color: #303030;
@@ -97,9 +112,10 @@
   margin-top: 23px;
   margin-bottom: 15px;
 }
+
 @media only screen and ( max-width: 960px ) {
   .footerup {
-    width: 105%;
+    width: 100%;
     overflow: hidden;
     text-align: center;
   }
@@ -107,10 +123,16 @@
     text-align: center;
   }
 .footermiddle {
-  width: 105%;
+  width: 100%;
   overflow: hidden;
   text-align: center;
-  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+.footermiddle:nth-of-type(odd) {
+ margin-top: -130px;
+ padding-bottom: 80px;
 }
 .footermiddle  ul {
     text-align: left;
@@ -118,7 +140,7 @@
     margin-left: 15px;
   }
   .footerbottom {
-    width: 105%;
+    width: 100%;
     overflow: hidden;
     font-size: 12px;
     padding: 15px 20px;
@@ -135,4 +157,21 @@
 
 
 
+}
+.dropdown-footer{
+  cursor: pointer;
+}
+.dropdownc-footer {
+ display: none;
+
+}
+.dropdownc-footer a {
+  display: block;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-weight: 300;
+
+}
+.dropdownc-footerblock {
+  display: block;
 }
