@@ -17,16 +17,15 @@
 }
 
 th {
-  color:white;;
+  color:white;
   background:#7e1111;
-  border-bottom:4px solid #700000;
   border-right: 1px solid #343a45;
   font-size:23px;
   font-weight: 500;
   padding:24px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align:middle;
-text-align: center
+text-align: center;
 }
 
 th:first-child {
