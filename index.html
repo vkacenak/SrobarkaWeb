@@ -10,180 +10,15 @@
 <link rel="stylesheet" type="text/css" href="css/DefaultTemplate.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <script src="js/modernizr.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+
   <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
 </head>
-
-
-  <!--
-  NAVIGAČNÝ PANEL
-  -->
-  <nav class="navbar navbar-fixed-top" role="navigation">
-
-     <!-- Logo a Hamburger Ikona -->
-     <div class="navbar-header">
-         <div class="hamburger navbar-toggle"id="hamburger-1">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </div>
-
-       <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" /></a>
-     </div>
-
-     <!-- Navigačné linky -->
-     <div class="navbar-collapse">
-       <ul class="nav navbar-nav  navbar-left ">
-         <li class="dropdown "><a class="navtoggler">ŠKOLA</a>
-           <div class="dropdown-content">
-            <div class="dropdown2"><a>História</a>
-                 <div class="dropdown-content2">
-                  <a href="historia.html">Dejiny školy</a>
-                  <a href="historia.html">Časová os</a>
-                 </div>
-            </div>
-           <div class="dropdown2"><a>Súčasnosť</a>
-               <div class="dropdown-content2">
-                <a href="sucasnost.html">Charakteristika</a>
-                <a href="sucasnost.html">Profilácia školy</a>
-               </div>
-            </div>
-           <a href="vybavenie.html">Vybavenie</a>
-           <div class="dropdown2"><a>Orgány školy</a>
-               <div class="dropdown-content2">
-                 <a href="zdruzenie.html">Združenie rodičov školy</a>
-                 <a href="rada.html">Rada školy</a>
-                 <a href="ziackarada.html">Žiacka rada</a>
-                 <a href="ozpriatelia.html">OZ Priatelia Šrobárky</a>
-               </div>
-            </div>
-           <div class="dropdown2"><a>Média o nás</a>
-             <div class="dropdown-content2">
-               <a href="TVmedia.html">Televízne príspevky</a>
-               <a href="noviny.html">Napísali o nás</a>
-
-             </div>
-          </div>
-         </div></li>
-
-
-         <li class="dropdown"><a class="navtoggler">ŠTÚDIUM</a>
-           <div class="dropdown-content">
-             <a href="predmety.html">Predmety</a>
-             <div class="dropdown2"><a>Maturita</a>
-               <div class="dropdown-content2">
-                 <a href="zakladneinfo.html">Základné informácie</a>
-                 <a href="terminy.html">Termíny</a>
-                 <a href="legislativa.html">Legislatíva</a>
-                 <a href="predmetymaturita.html">Predmety maturitnej skúšky</a>
-                 <a href="klasifikacia.html">Klasifikácia</a>
-                 <a href="organizaciematurity.html">Organizácia maturitnej skúšky</a>
-               </div>
-             </div>
-              <div class="dropdown2"><a>Certifikáty</a>
-                <div class="dropdown-content2">
-                  <a href="DSD.html">DSD I a DSD II</a>
-                  <a href="Cisco.html">Cisco Networking Academy</a>
-
-                </div>
-             </div>
-           </div>
-         </li>
-
-         <li class="dropdown"><a class="navtoggler">Šrobárčania</a>
-           <div class="dropdown-content">
-             <div class="dropdown2"><a>Zamestnanci</a>
-               <div class="dropdown-content2">
-                 <a href="pedagogovia.html">Pedagogickí zamestnanci</a>
-                 <a href="nepedagogovia.html">Nepedagogickí zamestnanci</a>
-                <a href="vychovnaporadkyna.html">Výchovná poradkyňa</a>
-               </div>
-            </div>
-             <div class="dropdown2"><a>Žiaci</a>
-               <div class="dropdown-content2">
-                 <a href="">1. ročník</a>
-                 <a href="">2. ročník</a>
-                <a href="">3. ročník</a>
-                <a href="">4. ročník</a>
-               </div>
-            </div>
-           <a href="">Úspešní žiaci</a>
-           <a href="#absolventi">Výnimoční absolventi</a>
-           </div></li>
-
-         <li class="dropdown"><a class="navtoggler">Uchádzači</a>
-           <div class="dropdown-content">
-             <a href="precosroba.html">Prečo Šrobárka?</a>
-             <a href="profilacia.html">Profilácia školy</a>
-                <div class="dropdown2"><a>Aktivity pre uchádzačov</a>
-                  <div class="dropdown-content2">
-                    <a href="">Deň otvorených dverí</a>
-                    <a href="">Prezentačné výstavy</a>
-                   <a href="">IT Tábor</a>
-                  </div>
-                    </div>
-             <div class="dropdown2"><a>Prijímacie konanie</a>
-             <div class="dropdown-content2">
-               <a href="">PrimacieKonanie.pdf</a>
-             </div></div>
-             <a href="testy.html">Modelové testy</a>
-
-
-           </div></li>
-
-       </ul>
-     <ul class="nav navbar-nav  navbar-right ">
-         <li class="dropdown"><a class="navtoggler">Informácie</a>
-           <div class="dropdown-content">
-           <a href="http://rozne.srobarka.sk/zast/zastupovanie/index.html">Zastupovanie</a>
-           <a href="https://srobarka.edupage.org/timetable/?">Rozvrh</a>
-           <a href="https://srobarka.edupage.org/">Elektronická žiacka knižka</a>
-           <a href="zvonenie.html">Zvonenie</a>
-            <a href="organizacia.html">Organizácia šk. roka</a>
-            <a href="skvp.html">Školský vzdelávací program</a>
-            <a href="klasifikacnyporiadok.html">Klasifikačný poriadok</a>
-            <a href="">ISIC</a>
-
-           </div></li>
-         <li class="dropdown"><a class="navtoggler">Aktivity</a>
-           <div class="dropdown-content">
-            <div class="dropdown2"><a>Pravidelné aktivity</a>
-                <div class="dropdown-content2">
-              <a href="kazdorocneaktivity.html">KOŽAZ</a>
-              <a href="kazdorocneaktivity.html">Lyžiarsky kurz</a>
-             <a href="kazdorocneaktivity.html">Kalamajky</a>
-              <a href="kazdorocneaktivity.html">enviromentálny týždeň</a>
-                <a href="kazdorocneaktivity.html">Stužková slávnosť</a>
-            </div></div>
-
-          <a href="studentskeslovo.html">Študentské slovo</a>
-           <a href="projektyucitelov.html">Ročenka</a>
-          <a href="projektyucitelov.html">Debatný klub</a>
-
-
-           </div></li>
-         <li class="dropdown"><a class="navtoggler">Fotogaléria</a>
-           <div class="dropdown-content">
-           <a href="fotogaleria.html">Aktuálne</a>
-           <a href="dokumenty.html">Archív</a>
-           </div></li>
-           <li class="dropdown"><a class="navtoggler">Pre verejnosť</a>
-             <div class="dropdown-content">
-            <a href="kontakt.html">Kontakty</a>
-            <a href="pracovneponuky.html">Pracovné ponuky</a>
-             <a href="projektyucitelov.html">Zmluvy, faktúry</a>
-             <a href="hodnotiacasprava.html">Verejné obstarávanie</a>
-            <a href="hodnotiacasprava.html">Hodnotiaca správa</a>
-            <a href="dokumenty.html">Dokumenty</a>
-            <a href="povinnezverejnovaneinformacie.html">Povinne zverejňované informácie </a>
-             </div></li>
-       </ul>
-
-     </div><!-- /.navbar-collapse -->
-
-
-
-  </nav>
 <body>
+
+
+
+    <div id="navbarTemplate"></div>
 <!--
 CAROUSEL
 -->
@@ -236,7 +71,7 @@ CAROUSEL
       <!-- STĹPEC S NOVINKAMI
      -->
 
-      <div class="col-lg-9 col-md-12 animated articles"  >
+      <div class="col-lg-8 col-md-12 animated articles"  >
         <div class="mainContent">
 
           <div class="row nadpis">
@@ -248,7 +83,7 @@ CAROUSEL
           <div class="row">
 
 
-            <div class="col-lg-6 ">
+            <div class="row">
                 <div class="article">
                   <div class="article-header p4 w300">
                  <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
@@ -268,7 +103,7 @@ CAROUSEL
                 </div>
               </div>
 
-              <div class="col-lg-6 ">
+              <div class="row ">
                   <div class="article">
                     <div class="article-header p4 w300">
                    <h4>Pozvánka na rodičovské združenie</h4>
@@ -288,7 +123,7 @@ CAROUSEL
                   </div>
                 </div>
 
-                <div class="col-lg-6 ">
+                <div class="row ">
                     <div class="article">
                       <div class="article-header p4 w300">
                       <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
@@ -308,7 +143,7 @@ CAROUSEL
                     </div>
                   </div>
 
-                  <div class="col-lg-6 ">
+                  <div class="row ">
                       <div class="article">
                         <div class="article-header p4 w300">
                        <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
@@ -327,44 +162,8 @@ CAROUSEL
                           </div>
                       </div>
                     </div>
-                    <div class="col-lg-6 ">
-                        <div class="article">
-                          <div class="article-header p4 w300">
-                          <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
-                         </div>
-                            <div class="article-body dolessmore p4 w400">
-                          <img src="img/Novinky/papier.jpeg" >
-                                <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                                  Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                                  a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                                  reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                                  v SR "ŠKOLA ROKA".</p>
-                                   <div class="article-date">
-                                         10.08.1998
-                                   </div>
 
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-6 ">
-                          <div class="article">
-                            <div class="article-header p4 w300">
-                           <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
-                           </div>
-                              <div class="article-body dolessmore p4 w400">
-                          <img src="img/Novinky/papier.jpeg" >
-                                  <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                                    Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                                    a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                                    reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                                    v SR "ŠKOLA ROKA".</p>
-                                     <div class="article-date">
-                                           10.08.1998
-                                     </div>
 
-                              </div>
-                          </div>
-                        </div>
             </div>  <!--KONIEC RIADKU -->
 
             </div>  <!--KONIEC MAIN CONTENT -->
@@ -373,7 +172,7 @@ CAROUSEL
 
          <!-- OKNO S INFORMACIAMI
         -->
-      <div class="col-lg-3 col-md-12">
+      <div class="col-lg-4 col-md-12">
         <div class="ImportantNews animated">
 
 <div class="box-nadpis w600">
@@ -664,7 +463,7 @@ a dokážu sa presadiť na trhu práce.
 
 
 
-<script src="js/jquery-3.2.1.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/backtotop.js"></script> <!-- Gem jQuery -->
 <script src="js/lessmore.js"></script>
