@@ -1,4 +1,8 @@
 <?php include 'navbar.html';?>
+
+<link rel="stylesheet" type="text/css" href="css/document.css">
+<link rel="stylesheet" type="text/css" href="css/maturita.css">
+
 <body>
   <div class="photo-heading heading-dokumenty bgNRCC">
     <div class="heading-wrapper">

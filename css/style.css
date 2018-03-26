@@ -943,3 +943,166 @@ animation-duration: 1s;
   text-align: center;
   padding: 60px 0;
 }
+
+
+/*** DSD ****/
+
+.dsd-uvod {
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+
+}
+.dsdborder {
+  padding-top: 10px;
+  padding-right: 10px;
+  border-right: 3px solid #7a0101;
+}
+.img-uvod {
+  margin-top: 38px;
+  text-align: center;
+  padding: 35px;
+}
+.dsd–fixtext {
+  background-color: #7a0101;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.dsd–box {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+.dsd–greybox {
+  background-color: #cccccc;
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.nadpis {
+
+  color:#7a0101;
+}
+.dsd1l {
+  padding-top: 0px;
+  padding-bottom: 35px;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1.3;
+
+}
+
+
+.dsd1r {
+  padding-top: 0px;
+  padding-bottom: 35px;
+  overflow: hidden;
+  line-height: 1.3;
+
+}
+.center{
+  text-align: center;
+  margin:3px;
+}
+#dsdimg{
+  width:100%;
+  height:auto;
+}
+
+.wrapper{
+  text-align: left;
+  padding: 120 50px;
+
+
+}
+.certifikaty–box{
+  width: 100%;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float:left;
+  text-align: center;
+}
+#dsd123 {
+  margin:60px;
+  border:4px solid #7a0101;
+}
+.zaver{
+  text-align: center;
+  margin-bottom: 55px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media (max-width: 1100px){
+  .dsd–greybox {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .dsdnone{
+    display: none;
+  }
+  .img-uvod {
+    margin-top: –15px;
+}
+}
+@media (max-width: 768px) {
+  .dsdborder {
+    border: none;
+  }
+  .dsd–box {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }
+  .dsd–greybox {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  #dsd123 {
+    margin:15px;
+    border:4px solid #7a0101;
+  }
+  .dsdnone{
+    display: none;
+  }
+  .img-uvod {
+    margin-top: –5px;
+}
+
+}
+/*************************************
+**************************************
+ZIACKA RADA
+***************************************
+***************************************/
+
+.legislativa ul{list-style:  square;}
+.legislativa li{
+padding: 10px 0;
+line-height: 1.8;
+font-weight: 600;
+font-size: 20px;}
+
+.zoznamclenov{
+  text-align: left;
+  line-height: 2;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 30px 0;
+}
+.ziackarada{
+  padding: 0 30px;
+  line-height: 2.1;
+  font-weight: 500;
+  font-size: 20px;
+}
+.ziackarada li{
+  padding: 10px 0;
+}

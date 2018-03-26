@@ -1,4 +1,7 @@
 <?php include 'navbar.html';?>
+
+<link rel="stylesheet" type="text/css" href="css/maturita.css">
+
 <body>
 <!--
 CAROUSEL
