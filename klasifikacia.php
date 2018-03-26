@@ -1,111 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gymnázium Šrobárová 1</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<?php include 'navbar.html';?>
+
 <link rel="stylesheet" type="text/css" href="css/certifikatydsd.css">
 <link rel="stylesheet" type="text/css" href="css/maturita.css">
 <link rel="stylesheet" type="text/css" href="css/organizacia.css">
-<link rel="stylesheet" type="text/css" href="css/DefaultTemplate.css">
-<link rel="stylesheet" type="text/css" href="css/footer.css">
-<script src="js/modernizr.js"></script>
-  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
-</head>
 
-
-<!--
-NAVIGAČNÝ PANEL
--->
-<nav class="navbar navbar-fixed-top" role="navigation">
-
-   <!-- Logo a Hamburger Ikona -->
-   <div class="navbar-header">
-       <div class="hamburger navbar-toggle"id="hamburger-1">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </div>
-
-     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" /></a>
-   </div>
-
-   <!-- Navigačné linky -->
-   <div class="navbar-collapse">
-     <ul class="nav navbar-nav  navbar-left ">
-       <li class="dropdown "><a>O ŠKOLE</a>
-         <div class="dropdown-content">
-         <a href="historia.html">História Školy</a>
-         <a href="charakteristika.html">Charakteristika Školy</a>
-         <a href="certifikaty.html#">Certifikáty</a>
-         <a href="organizacia.html">Organizácia šk. roka</a>
-         </div></li>
-       <li class="dropdown"><a>ŠTÚDIUM</a>
-         <div class="dropdown-content">
-        <a href="precosroba.html">Prečo Študovať na Šrobárke</a>
-           <a href="prijimacky.html">Prijímačky</a>
-            <div class="dropdown2"><a>Maturita</a>
-              <div class="dropdown-content2">
-                <a href="zakladneinfo.html">Základné informácie</a>
-                <a href="terminy.html">Termíny</a>
-                <a href="legislativa.html">Legislatíva</a>
-                <a href="predmetymaturita.html">Predmety maturitnej skúšky</a>
-                <a href="klasifikacia.html">Klasifikácia</a>
-                <a href="organizaciematurity.html">Organizácia maturitnej skúšky</a>
-              </div></div>
-
-        <a href="predmety.html">Predmety</a>
-
-         </div></li>
-         <li class="dropdown"><a>Informácie</a>
-           <div class="dropdown-content">
-           <a href="https://www.eskoly.sk/srobarova1/nastenka">Školská jedáleň</a>
-           <a href="zdruzenie.html">Združenie rodičov školy</a>
-           <a href="rada.html">Rada školy</a>
-           <a href="ziackarada.html">Žiacka rada</a>
-           <a href="ozpriatelia.html">OZ Priatelia Šrobárky</a>
-           <a href="povinneinfo.html">Povinné zverejňované informácie</a>
-
-           </div></li>
-       <li class="dropdown"><a>Šrobárčania</a>
-         <div class="dropdown-content">
-         <a href="https://srobarka.edupage.org/teachers/">Zoznam Učiteľov</a>
-         <a href="https://srobarka.edupage.org/students/">Zoznam žiakov</a>
-         <a href="https://srobarka.edupage.org/classrooms/">Zoznam Učební</a>
-         <a href="#absolventi">Úspešní absolventi</a>
-         </div></li>
-     </ul>
-   <ul class="nav navbar-nav  navbar-right ">
-       <li class="dropdown"><a>Pre študentov</a>
-         <div class="dropdown-content">
-         <a href="http://rozne.srobarka.sk/zast/zastupovanie/index.html">Zastupovanie</a>
-         <a href="https://srobarka.edupage.org/timetable/?">Rozvrh</a>
-         <a href="https://srobarka.edupage.org/">Elektronická žiacka knižka</a>
-         <a href="https://www.eskoly.sk/srobarova1/jedalen">Jedálny lístok</a>
-         <a href="zvonenie.html">Zvonenie</a>
-         </div></li>
-       <li class="dropdown"><a>Aktivity</a>
-         <div class="dropdown-content">
-         <a href="projektyucitelov.html">Projekty Učiteľov</a>
-         <a href="kazdorocneaktivity.html">Každoročné aktivity</a>
-         <a href="studentskeslovo.html">Študentské slovo</a>
-         </div></li>
-       <li class="dropdown"><a>Média</a>
-         <div class="dropdown-content">
-         <a href="fotogaleria.html">Fotogaléria</a>
-         <a href="dokumenty.html">Dokumenty</a>
-         </div></li>
-       <li class=""><a href="kontakt.html">Kontakt</a></li>
-     </ul>
-
-   </div><!-- /.navbar-collapse -->
-
-
-
-</nav>
 <body>
 <!--
 CAROUSEL
@@ -124,7 +22,7 @@ CAROUSEL
   <div class="row">
     <div class="dsd–box">
 
-      <h2 class="dsd–greybox2"> Organizácia maturitnej skúšky </h2>
+      <h2 class="dsd–greybox2"> Klasifikácia </h2>
 
   </div>
   </div>
@@ -134,16 +32,39 @@ CAROUSEL
   <div class="row">
     <div class="legislativa p3 w500">
     <ul>
-      <li>Pri ústnej forme internej časti maturitnej skúšky si žiak žrebuje jedno zo schválených zadaní.</li>
-<li>Riaditeľ strednej školy na návrh predsedu predmetovej komisie schvaľuje <b>do 31. marca
-maturitné zadania jednotlivých predmetov</b> ústnej formy internej časti maturitných skúšok,
-ktorých súčasťou je aj zoznam učebných pomôcok, ktoré môže žiak používať; v predmete
-slovenský jazyk a literatúra je súčasťou maturitných zadaní aj vzorec na výpočet stupňa
-prospechu.</li>
-<li>Maturitné skúšky z jednotlivých predmetov, okrem externej časti a písomnej formy internej
-časti, sa konajú pred predmetovou maturitnou komisiou. V jednom dni môže predmetová
-maturitná komisia vyskúšať najviac 24 žiakov.</li>
+      <li>Externá časť a každá forma internej časti maturitnej skúšky sa <b>hodnotí osobitne</b> a toto hodnotenie je
+uvedené aj na vysvedčení o maturitnej skúške.
+<li>Externá časť sa hodnotí percentami úspešnosti a percentilom. Písomná forma internej časti sa hodnotí
+percentami úspešnosti. Ústna forma internej časti sa hodnotí stupňom prospechu. Hodnotenie
+vyjadrené percentami úspešnosti a percentilom sa zaokrúhľuje na desatiny.</li>
+<li>Každý predmet maturitnej skúšky má v maturitnom zadaní aspoň dve úlohy vyjadrené ich váhou
+vzhľadom na celkové hodnotenie. <b>Celkovým hodnotením ústnej formy internej časti</b> maturitnej
+skúšky z daného predmetu je stupeň prospechu, ktorý vzniká ako vážený priemer stupňov prospechu
+z odpovedí na jednotlivé úlohy maturitného zadania. Pritom sa <b>vážený priemer</b> pri hodnotení
+vyjadrenom stupňom prospechu zaokrúhľuje na celé číslo, pričom 1,5 sa zaokrúhľuje na 1; 2,5 sa
+zaokrúhľuje na 2; 3,5 sa zaokrúhľuje na 3 a 4,5 sa zaokrúhľuje na 4; stupeň prospechu vyjadrený
+číslom s desatinnou časťou do 0,50 sa zaokrúhľuje na celé číslo smerom nadol a nad 0,50 sa
+zaokrúhľuje na celé číslo smerom nahor.</li>
+<li><b><u>Žiak úspešne vykoná MS</u></b> z predmetu, ktorý <u>má EČ a PFIČ MS</u>, ak jeho hodnotenie z ÚFIČ MS</li>
+<p><b>a. nie je horšie ako stupeň prospechu 3 (dobrý)</b> a v PFIČ MS získa viac ako 25 % z celkového
+počtu bodov alebo v EČ MS získa viac ako 33 % z celkového počtu bodov, alebo
+</p>
+<p><b>b. je stupeň prospechu 4 (dostatočný)</b> a v PFIČ MS získa viac ako 25 % z celkového počtu bodov a
+súčasne v EČ MS získa viac ako 33 % z celkového počtu bodov.</p>
+<li><b><u>Žiak úspešne vykoná MS</u></b> z predmetu, ktorý má <u>EČ MS a nemá PFIČ MS</u>, ak jeho hodnotenie z ÚFIČ
+MS</li>
+<p><b>a. nie je horšie ako stupeň prospechu 3 (dobrý)</b> a v EČ MS získa viac ako 25 % z celkového počtu
+bodov alebo</p>
+<p><b>b. je stupeň prospechu 4 (dostatočný)</b> a v EČ MS získa viac ako 33 % z celkového počtu bodov.</p>
+<li>Žiak, ktorý nevykonal úspešne MS z predmetu, <b>požiada ŠMK o opravnú skúšku z tohto predmetu.</b>
+Vo svojej žiadosti špecifikuje, ktorú časť alebo formu MS chce opravovať (školský zákon, § 88, odsek
+1 a 2). <b>Môže požiadať o opravnú skúšku iba tej časti alebo formy, v ktorej bol neúspešný.</b></li>
+<li><b>Upozornenie!</b> O opravný termín EČ MS a PFIČ MS teda <b>nemôže požiadať žiak</b>, ktorý napr.
+neukončil úspešne posledný ročník štúdia, v auguste koná opravné skúšky na ukončenie štúdia a v
+septembri nasledujúceho školského roka chce konať náhradný termín ÚFIČ MS a zároveň v septembri
+by chcel konať aj opravný termín EČ MS a/alebo PFIČ MS.</li>
     </ul>
+
 
 
 
