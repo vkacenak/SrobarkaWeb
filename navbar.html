@@ -10,6 +10,10 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/DefaultTemplate.css">
 <script src="js/modernizr.js"></script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-fixed-top" role="navigation">
@@ -178,3 +182,50 @@
 
 
 </nav>
+
+<script>
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+});
+
+
+jQuery(function($){
+$('.dropdown').click(function(){
+$('.dropdown-content', this).toggleClass('activedropdown');
+});
+});
+
+jQuery(function($){
+$('.dropdown2').click(function(){
+$('.dropdown-content2', this).toggleClass('activedropdown');
+});
+});
+
+
+jQuery(function($){
+$('.navbar-toggle').click(function(e){
+$('.navbar-collapse').toggleClass('rightnav');
+$('.navbar-toggle').toggleClass('indexcity');
+});
+$(document).click(function(e){
+if(!$(e.target).closest('.navbar-toggle, .rightnav, .navbar-collapse').length){
+$('.navbar-collapse').removeClass('rightnav');
+$('.navbar-toggle').removeClass('indexcity');
+$('.hamburger').removeClass('is-active');
+$('.dropdown').removeClass('activedropdown');
+$('.dropdown2').removeClass('activedropdown');
+}
+})
+});
+</script>
