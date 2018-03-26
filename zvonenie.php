@@ -26,54 +26,6 @@
 </div> <!-- KONIEC HLAVNEHO CONTAINERU -->
 </body>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/lessmore.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
-<script>
-    $(document).ready(function() {
 
-      // place this within dom ready function
-      function showpanel() {
-        $('nav').addClass('shrink');
-     }
-
-     // use setTimeout() to execute
-     setTimeout(showpanel, 500)
-
-    });
-    </script>
-<script>$(document).ready(function(){
-$(".hamburger").click(function(){
-$(this).toggleClass("is-active");
-});
-});
-</script>
-<script>
-$(document).ready(function(){
-$('.dolessmore').dolessmore({lHeight : 150});
-});
-</script>
-<script>jQuery(function($){
-$('.dropdown').click(function(){
-$('.dropdown-content', this).toggleClass('activedropdown');
-});
-});
-</script>
-<script>
-jQuery(function($){
-$('.navbar-toggle').click(function(e){
-$('.navbar-collapse').toggleClass('rightnav');
-$('.navbar-toggle').toggleClass('indexcity');
-});
-$(document).click(function(e){
-if(!$(e.target).closest('.navbar-toggle, .rightnav, .navbar-collapse').length){
-$('.navbar-collapse').removeClass('rightnav');
-$('.navbar-toggle').removeClass('indexcity');
-$('.hamburger').removeClass('is-active');
-}
-})
-});
-</script>
 </html>

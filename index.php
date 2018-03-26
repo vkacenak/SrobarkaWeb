@@ -6,7 +6,7 @@
 <!--
 CAROUSEL
 -->
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="40" id="bs-carousel">
   <!-- Overlay -->
   <div class="overlay"></div>
 
@@ -370,9 +370,7 @@ a dokážu sa presadiť na trhu práce.
 
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
-<script src="js/lessmore.js"></script>
+
 
 
 
@@ -445,5 +443,6 @@ $(document).ready(function(){
   }, { offset: '100%' });
 
 });
+
+
 </script>
-</html>

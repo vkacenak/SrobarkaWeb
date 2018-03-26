@@ -1,5 +1,5 @@
 <?php include 'navbar.html';?>
-<link rel="stylesheet" type="text/css" href="css/Predmetylanding.css">
+<link rel="stylesheet" type="text/css" href="css/predmety.css">
 
 <body>
   <div class="photo-heading heading-aktivity bgNRCC">
