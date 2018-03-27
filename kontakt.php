@@ -41,80 +41,76 @@
 
     <div class="row contact-contact">
       <div class="col-md-6">
-<h5>Riaditeľka školy</h5>
+<h1>Riaditeľka školy</h1>
 <p> PaedDr. Zlatica Frankovičová</p>
-<p>Email: riaditel@srobarka.sk</p>
+<p class="contact-email"><b>riaditel@srobarka.sk</b></p>
 
 
-<h5>Zástupkyne školy</h5>
+<h1>Zástupkyne školy</h1>
 
 <p>RNDr. Mária Grutková</p>
 <p>RNDr. Dagmar Klímová</p>
-<p>Ingrid Palenčárová</p>
-<p>Email: zastupca@srobarka.sk</p>
+<p>Ing. Ingrid Palenčárová</p>
+<p class="contact-email"> <b>zastupca@srobarka.sk</b></p>
 
-<h5>Sekretariát</h5>
+<h1>Sekretariát</h1>
 
 <p>Marianna Hnizdilová</p>
-<p>Email: sekretariat@srobarka.sk</p>
+<p class="contact-email"> <b>sekretariat@srobarka.sk </b></p>
 
 
-<h5>Hospodárske oddelenie</h5>
+<h1>Hospodárske oddelenie</h1>
 
 <p>Email: ucto@srobarka.sk</p>
 <p>Mgr. Sabová Monika</p>
-<p>Email: hospo@srobarka.sk</p>
+<p class="contact-email"> <b>hospo@srobarka.sk </b></p>
 
-<h5>Vedúca školskej jedálne</h5>
+<h1>Vedúca školskej jedálne</h1>
 
 <p>Mária Slezáková</p>
-<p>Email: jedalen@srobarka.sk</p>
+<p class="contact-email"> <b>jedalen@srobarka.sk </b></p>
 
-<h5>Výchovná poradkyňa</h5>
 
-<p>Mgr. Lucia Formenderová-Partilová</p>
-<p>Email: luciafor@srobarka.sk</p>
-
-<h5>Školský psychológ</h5>
-
-<p>Mgr. Stanislava Hučková</p>
-<p>Od 19. septembra 2017 je všetkým študentom, ale aj pedagogickým pracovníkom a rodičom na škole v miestnosti č. 103 k dispozícii školská psychologička Mgr. Stanislava Hučková.
-V prípade akýchkoľvek osobných, vzťahových či študijných otázok a problémov, ktoré vás zaťažujú, si pokojne dohodnite individuálne stretnutie:
-telefonicky na čísle 0948 157 168 alebo emailom na huckovastanka@gmail.com</p>
-
-<h5>Koordinátor prevencie závislosti a sociálne - patologických javov</h5>
-
-<p>Mgr. Daniela Siváková , t.č. 62 219 51, </p>
-<p>Email: sivakova@srobarka.sk</p>
-
-<h5>Projektová manažérka školy</h5>
-
-<p>t.č. 62 219 51 Email: projekty@srobarka.sk
     </div>
 
 <div class="col-md-6">
-    <div id="form">
 
-  		<h5>Kontaktný formulár</h5>
-    <form id="contact" action="contactengine.php" method="post">
-      <div class="left">
-        <input type="text" placeholder="Meno"  name="Name" id="Name" required="required"/>
-        <input type="email" placeholder="Email"  name="Email" id="Email" required="required"/>
-        <input type="text" placeholder="Predmet"  name="Subject" id="Subject"/>
-      </div>
-      <div class="right">
-        <textarea placeholder="Sem vložte správu..."  name="Message" id="Message" required="required" ></textarea>
-      </div>
-      <div class="send-button cl">
-        <button type="submit" name="Submit">Odoslať</button>
-      </div>
-    </form>
+  <h1>Výchovná poradkyňa</h1>
 
+  <p>Mgr. Lucia Formenderová-Partilová</p>
+  <p class="contact-email"> <b>luciafor@srobarka.sk </b></p>
+
+  <h1>Školský psychológ</h1>
+
+  <p>Mgr. Stanislava Hučková</p>
+
+
+  <h1>Koordinátor prevencie závislosti a sociálne - patologických javov</h1>
+
+  <p>Mgr. Daniela Siváková , t.č. 62 219 51, </p>
+  <p class="contact-email"> <b>sivakova@srobarka.sk </b></p>
+
+<div id="form">
+
+  <h1>Kontaktný formulár</h1>
+<form id="contact" action="contactengine.php" method="post">
+  <div class="left">
+    <input type="text" placeholder="Meno"  name="Name" id="Name" required="required"/>
+    <input type="email" placeholder="Email"  name="Email" id="Email" required="required"/>
+    <input type="text" placeholder="Predmet"  name="Subject" id="Subject"/>
   </div>
+  <div class="right">
+    <textarea placeholder="Sem vložte správu..."  name="Message" id="Message" required="required" ></textarea>
+  </div>
+  <div class="send-button cl">
+    <button type="submit" name="Submit">Odoslať</button>
+  </div>
+</form>
 
 </div>
 
   </div>
+</div>
               </div> <!-- KONIEC HLAVNEHO CONTAINERU -->
 
 <?php include 'footer.html';?>
