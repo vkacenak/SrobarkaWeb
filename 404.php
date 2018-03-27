@@ -1,17 +1,17 @@
 
-<div class="photo-heading heading-aktivity bgNRCC">
+<div class="photo-heading heading-aktivity heading-photo bgNRCC">
 </div>
 
 
-<div class="container notfound">
-
-
-
+<div class="container">
+<div class="row notfound">
+<div class="col-lg-2 col-lg-offset-2">
   <img src="img/404.png">
-  <div class="rekonstrukcia ">
+  </div>
+  <div class="col-lg-6">
 
-    <h2>Ospravedlňujeme sa, ale z dôvodu rekonštrukcie webovej stránky je táto sekcia nedostupná. Ďakujeme za pochopenie. </h2>
-
-
+    <p class="p1 w600">Ospravedlňujeme sa, ale z dôvodu rekonštrukcie webovej stránky je táto sekcia nedostupná. Ďakujeme za pochopenie. </p>
+</div>
+</div>
 </div>
 </div> <!-- KONIEC HLAVNEHO CONTAINERU -->
