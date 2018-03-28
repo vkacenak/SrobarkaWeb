@@ -200,7 +200,7 @@ no pravdepodobne zabudla.</div></div>
    <div class="col-xs-9 box-text"> Matúš Smolko zistuje, že nevie der ivovat .</div></div>
 
 </div>
-      <img src="img/ksk.png" alt="" width="100%" class="ksk animated">
+      <img src="img/partneri/ksk.png" alt="" width="100%" class="ksk animated">
       </div>
 
 
