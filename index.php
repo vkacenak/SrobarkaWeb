@@ -60,7 +60,7 @@ CAROUSEL
 
           <div class="row nadpis">
             <div class="col-sm-12">
-              <hr class="hr-text" data-content="NOVINKY">
+              <hr class="hr-text" data-content="JJNOVINKY">
             </div>
           </div>
 
