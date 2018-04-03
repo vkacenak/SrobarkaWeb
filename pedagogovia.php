@@ -3,20 +3,10 @@
 <?php include 'db.php' ?>
 <link rel="stylesheet" type="text/css" href="css/triedy.css">
 <?php
-$query = "SELECT * FROM pedagogovia";
-$pedagogovia = $db->query($query);
+$query = "SELECT * FROM zamestnanci";
+$zamestnanci = $db->query($query);
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
 
-if(isset($_POST['delete'])){
-$DeleteQuery = "DELETE FROM pedagogovia WHERE Kontakt = '$_POST[hidden]'";
-mysqli_query($DeleteQuery, $conn);
-};
-
-
-if(isset($_POST['update'])){
-$UpdateQuery = "UPDATE pedagogovia SET Kontakt='$_POST[Kontakt]'";
-mysql_query($UpdateQuery, $conn);
-};
 ?>
 
 <div class="photo-heading heading-aktivity bgNRCC">
@@ -40,18 +30,15 @@ mysql_query($UpdateQuery, $conn);
 <tbody>
 
 
-    <?php if ($pedagogovia->num_rows > 0) {
-    while($row = $pedagogovia->fetch_assoc()){
+    <?php if ($zamestnanci->num_rows > 0) {
+    while($row = $zamestnanci->fetch_assoc()){
           echo "<tr> <td>";
                  echo "<form action=pedagogovia.php method=post>";
                   echo $row['Meno'] . "</td><td>";
 
-           echo $row['Aprobacia'] . "</td><td>";
-           echo $row['Nastup'] . "</td><td>";
+           echo $row['Akrobácia'] . "</td><td>";
            echo "<input type=text name=update value='" . $row['Kontakt'] . "' ";
           echo "</td><td>";
-          echo "<td>" . "<input type=submit name=update value=update" . " </td>";
-           echo "<td>" . "<input type=submit name=delete value=delete" . " </td>";
            echo "</form>";
 } } ?>
 
