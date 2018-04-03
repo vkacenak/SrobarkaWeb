@@ -1,12 +1,18 @@
 
 
 <?php include 'navbar.html';?>
-
-
+<?php include 'config.php' ?>
+<?php include 'db.php' ?>
+<link rel="stylesheet" type="text/css" href="css/triedy.css">
+<?php
+$query = "SELECT * FROM Articles LIMIT 4";
+$articles = $db->query($query);
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
+?>
 <!--
 CAROUSEL
 -->
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="40" id="bs-carousel">
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
   <div class="overlay"></div>
 
@@ -60,105 +66,31 @@ CAROUSEL
 
           <div class="row nadpis">
             <div class="col-sm-12">
-              <hr class="hr-text" data-content="JJNOVINKY">
+              <hr class="hr-text" data-content="NOVINKY">
             </div>
           </div>
 
           <div class="row">
 
-
-            <div class="row">
-                <div class="article">
-                  <div class="article-header p4 w300">
-                 <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
+    <?php if ($articles->num_rows > 0) {
+            while($row = $articles->fetch_assoc()){
+            echo "<div class=row>
+                <div class=article>
+                  <div class=article-header p4 w300>
+                 <h4>";
+              echo $row['ArticleHeader'] .
+              "</h4>
                  </div>
-                    <div class="article-body dolessmore p4 w400">
-                        <img src="img/Novinky/android.png" >
-                  			<p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                          Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                          a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                          reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                          v SR "ŠKOLA ROKA".</p>
-                          <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                            Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                            a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                            reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                            v SR "ŠKOLA ROKA".</p>
-
-                            <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                              Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                              a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                              reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                              v SR "ŠKOLA ROKA".</p>
-
-
-
-                                 <div class="article-date">
-                                       10.08.1998
-                                 </div>
+                    <div class=article-body dolessmore p4 w400>";
+              echo "<img src=img/Novinky/" . $row['Photo'] . ".jpg >";
+              echo "<p>" . $row['ArticleBody'] . "</p>";
+        echo "<div class=article-date>";
+                                  echo  $row['Date'];
+          echo  "                         </div>
                     </div>
                 </div>
-              </div>
-
-              <div class="row ">
-                  <div class="article">
-                    <div class="article-header p4 w300">
-                   <h4>Pozvánka na rodičovské združenie</h4>
-                   </div>
-                      <div class="article-body dolessmore p4 w400">
-                          <img src="img/Novinky/papier.jpeg" >
-                          <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                            Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                            a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                            reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                            v SR "ŠKOLA ROKA".</p>
-                             <div class="article-date">
-                                   10.08.1998
-                             </div>
-
-                      </div>
-                  </div>
-                </div>
-
-                <div class="row ">
-                    <div class="article">
-                      <div class="article-header p4 w300">
-                      <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
-                     </div>
-                        <div class="article-body dolessmore p4 w400">
-                          <img src="img/Novinky/papier.jpeg" >
-                            <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                              Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                              a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                              reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                              v SR "ŠKOLA ROKA".</p>
-                               <div class="article-date">
-                                     10.08.1998
-                               </div>
-
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="row ">
-                      <div class="article">
-                        <div class="article-header p4 w300">
-                       <h4>Školské majstrovstvá Slovenska v aerobicu SŠ</h4>
-                       </div>
-                          <div class="article-body dolessmore p4 w400">
-                          <img src="img/Novinky/papier.jpeg" >
-                              <p>Dňa 05.02.2018 sa v telocvični Hotelovej akadémie, Južná trieda 10, Košice konali školské majstrovstvá
-                                Slovenska v aerobicu. Súťaž pozostávala zo štyroch kôl po 50 minút, medzi ktorými je 10 minútová prestávka
-                                a súťažilo sa v týchto štýloch: dance aerobic, zumba, piloxing, body forming. Naše gymnázium úspešne
-                                reprezentovala Patrícia Koleničová z I.A. Súťaž je zaradená do bodovania súťaže školskej aktivite škôl
-                                v SR "ŠKOLA ROKA".</p>
-                                 <div class="article-date">
-                                       10.08.1998
-                                 </div>
-
-                          </div>
-                      </div>
-                    </div>
+              </div>";
+} } ?>
 
 
             </div>  <!--KONIEC RIADKU -->

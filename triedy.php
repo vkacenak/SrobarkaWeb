@@ -1,5 +1,37 @@
 <?php include 'navbar.html';?>
+<?php include 'config.php' ?>
+<?php include 'db.php' ?>
+<?php
+$query = "SELECT * FROM persons";
+$test = $db->query($query); ?>
 
+
+<?php
+/* Attempt MySQL server connection. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+$link = mysqli_connect("localhost", "root", "", "triedy");
+
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+
+// Escape user inputs for security
+$first_name = mysqli_real_escape_string($link, $_REQUEST['first_name']);
+$last_name = mysqli_real_escape_string($link, $_REQUEST['last_name']);
+$email = mysqli_real_escape_string($link, $_REQUEST['email']);
+
+// attempt insert query execution
+$sql = "INSERT INTO persons (first_name, last_name, email) VALUES ('$first_name', '$last_name', '$email')";
+if(mysqli_query($link, $sql)){
+    echo "Records added successfully.";
+} else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+}
+
+// close connection
+mysqli_close($link);
+?>
 <link rel="stylesheet" type="text/css" href="css/triedy.css">
 <body>
   <div class="photo-heading heading-aktivity bgNRCC">
@@ -26,8 +58,9 @@
   </thead>
   <tbody class="table-hover">
     <tr>
-    <td>	Viktória Barnová</td>
-
+    	<?php if ($test->num_rows > 0) {
+      while($row = $test->fetch_assoc()){ ?>  <tr><td><?php echo $row['first_name']?> </td>
+<?php } } ?>
     </tr>
     <tr>
     <td>Lenka Beránková</td>
@@ -446,6 +479,22 @@
 </div>
 </div>
 
+
+<form action="triedy.php" method="post">
+    <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="first_name" id="firstName">
+    </p>
+    <p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="last_name" id="lastName">
+    </p>
+    <p>
+        <label for="emailAddress">Email Address:</label>
+        <input type="text" name="email" id="emailAddress">
+    </p>
+    <input type="submit" value="Submit">
+</form>
 
   </div>
             <a href="#0" class="cd-top">Top</a>    <!-- BACK TO TOP -->
