@@ -65,15 +65,14 @@
 <p>Mgr. Sabová Monika</p>
 <p class="contact-email"> <b>hospo@srobarka.sk </b></p>
 
-<h1>Vedúca školskej jedálne</h1>
-
-<p>Mária Slezáková</p>
-<p class="contact-email"> <b>jedalen@srobarka.sk </b></p>
-
-
     </div>
 
 <div class="col-md-6">
+
+  <h1>Vedúca školskej jedálne</h1>
+
+  <p>Mária Slezáková</p>
+  <p class="contact-email"> <b>jedalen@srobarka.sk </b></p>
 
   <h1>Výchovná poradkyňa</h1>
 
@@ -90,7 +89,10 @@
   <p>Mgr. Daniela Siváková , t.č. 62 219 51, </p>
   <p class="contact-email"> <b>sivakova@srobarka.sk </b></p>
 
-<div id="form">
+</div>
+
+<div class="col-md-12">
+<div class="" id="form">
 
   <h1>Kontaktný formulár</h1>
 <form id="contact" action="contactengine.php" method="post">
@@ -98,8 +100,6 @@
     <input type="text" placeholder="Meno"  name="Name" id="Name" required="required"/>
     <input type="email" placeholder="Email"  name="Email" id="Email" required="required"/>
     <input type="text" placeholder="Predmet"  name="Subject" id="Subject"/>
-  </div>
-  <div class="right">
     <textarea placeholder="Sem vložte správu..."  name="Message" id="Message" required="required" ></textarea>
   </div>
   <div class="send-button cl">
@@ -108,8 +108,8 @@
 </form>
 
 </div>
+</div>
 
-  </div>
 </div>
               </div> <!-- KONIEC HLAVNEHO CONTAINERU -->
 

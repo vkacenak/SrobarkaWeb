@@ -542,7 +542,7 @@ font-weight: 500;}
 
 
 .contact-contact h1{
-  /* font-size:40px; */
+  font-size:33px;
   color:#5e1111;
   font-weight: 700;
   padding: 40px 0 7px 0;
@@ -561,7 +561,7 @@ FORMULAR
 #form{padding-top: 20px;}
 #form h1 {
 	margin-bottom: 15px;
-	font: bold 30px/30px "Montserrat", sans-serif;
+	font: bold 40px/40px "Montserrat", sans-serif;
 	text-align: center;
 	color: #5e1111;
 
@@ -573,22 +573,31 @@ FORMULAR
 
 
 
-#contact input[type="text"],#contact input[type="email"], #contact textarea{
+#contact input[type="text"],#contact input[type="email"]{
 	display: block;
 	padding: 10px;
 	margin: 10px auto;
 	width: 100%;
 	font-size: 18px;
 	color: #777;
-  border: 1px solid #ccc !important;
-	background-color: #DCDCDC !important;
+  border-bottom: 2px solid #ccc !important;
+  border: none;
 	border-color: #DCDCDC !important;
 }
 
 #contact textarea{
-	font-size: 16px;
-	background-color: #DCDCDC ;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 15px;
+	font-size: 18px;
 	border-color: #DCDCDC;
+  border-bottom: 2px solid #ccc !important;
+  display: block;
+  width: 100%;
+  color: #777;
+  border: none;
+  min-height: 120px;
+
 }
 
 #contact input:hover, #contact textarea:hover{
@@ -602,8 +611,7 @@ FORMULAR
 #contact textarea{
 	max-width: 100%;
 	min-width: 100%;
-	max-height: 180px;
-	min-height: 180px;
+  width: 100%;
   resize: none;
 }
 
@@ -615,14 +623,14 @@ FORMULAR
 	color: #fff;
   background: #5e1111;
   border: none;
-	width: 100%;
-	padding: 10px 0;
+	width: 250px;
+	padding: 12px 0;
 	font-size: 20px;
 	text-transform: uppercase;
 	transition: .5s all ease;
   cursor: pointer;
 	font-family: "Montserrat";
-}
+  margin: 15px 0;}
 
 #contact .send-button button[type="submit"]:hover{
 	opacity:0.7;
@@ -638,9 +646,7 @@ FORMULAR
 @media screen and (min-width: 640px){
 
   #contact textarea{
-    max-width: 98%;
-    min-width: 98%;
-    min-height: 152px;
+    min-height: 120px;
     margin-right: 0;
   }
 
@@ -655,7 +661,7 @@ FORMULAR
 
 	#contact .left{
 		float: left;
-		width: 50%;
+		width: 100%;
 	}
 	.cl{
     clear: both;

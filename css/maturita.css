@@ -75,8 +75,7 @@ li.text-1::before {
 .riadneterminy li{
 padding: 5px 0;
 line-height: 1.8;
-font-weight: 600;
-font-size: 20px;}
+}
 
 .riadneterminy{
   text-align: left;
@@ -100,9 +99,6 @@ font-size: 20px;}
 @media (max-width: 768px){
   .box-riadneterminy{
       		margin:30px 0px;
-  }
-  .maturita-box{
-    padding: 5%;
   }
   .box-riadneterminy{padding: 0;}
 }
@@ -135,3 +131,44 @@ font-size: 20px;}
   font-weight: 600;
   font-size: 20px;
 }
+
+/* Rada školy */
+.rada-oznam{
+padding: 50px;
+padding-bottom: 0;
+}
+
+.rada-box{
+  padding: 3%;
+  padding-bottom:0;
+  color: black;
+}
+
+#lh15 {line-height: 1.5}
+
+.rada-list ul{
+margin:30px 0;
+}
+.rada-list{font-size:14px;
+text-transform: uppercase;
+font-weight: 600;
+padding: 0 50px;
+width: 100%;
+}
+
+.rada-list li{	margin: 0;
+  padding: 36px 0 36px 70px;
+  list-style: none;
+  background-image: url("../img/document.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  transition-duration: 0.5s;
+}
+.rada-list li:hover{padding: 36px 0 36px 60px;
+transition-duration: 0.5s;}
+.rada-list a{color:black;
+cursor:pointer;}
+@media (min-width:1200px){.rada-list{width:70%;}}
+@media (max-width:768px){.rada-list{padding: 0 0;
+    width: 100%;}}
