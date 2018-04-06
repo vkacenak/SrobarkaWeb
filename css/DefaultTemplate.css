@@ -1,3 +1,7 @@
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 
 /** VSEOBECNE **/
@@ -159,7 +163,7 @@ nav ul{
 	font-size: 13px;
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 992px) {
 .dropdown:hover .dropdown-content {
     display:block;
     visibility: visible;
@@ -215,7 +219,7 @@ transition-duration: 0.5s;}
 SHRINK NAVBAR
  ***/
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
  nav.navbar.shrink li > a{
   margin-top: 10px ;
   transition-duration: 0.5s;
@@ -273,7 +277,7 @@ nav  ul{
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
 .hamburger .line{
 width: 30px;
 height: 3px;
@@ -424,7 +428,7 @@ right: 0 !important;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
 
 .navbar-header {
 		float: none;
@@ -582,7 +586,7 @@ right: 0 !important;
   margin-bottom: 15px;
 }
 
-@media only screen and ( max-width: 960px ) {
+@media only screen and ( max-width: 992px ) {
   .footerup {
     width: 100%;
     overflow: hidden;

@@ -308,7 +308,7 @@ a dokážu sa presadiť na trhu práce.
 
 <script>
 		$(document).ready(function(){
-			$('.dolessmore').dolessmore({lHeight : 150});
+			$('.dolessmore').dolessmore({lHeight : 100});
 		});
 	</script>
 
