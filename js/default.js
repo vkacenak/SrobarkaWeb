@@ -9,6 +9,7 @@ $(window).scroll(function() {
     $('nav').removeClass('shrink');
   }
 });
+
 // HAMBURGER TOGGLE NAVBAR
 $(document).ready(function(){
   $(".hamburger").click(function(){
@@ -16,12 +17,8 @@ $(document).ready(function(){
   });
 });
 
+
 // DROPDOWN TOGGLE NAVBAR
-jQuery(function($){
-$('.dropdown').click(function(){
-$('.dropdown-content', this).toggleClass('activedropdown');
-});
-});
 
 jQuery(function($){
 $('.dropdown2').click(function(){
@@ -29,6 +26,11 @@ $('.dropdown-content2', this).toggleClass('activedropdown');
 });
 });
 
+$(document).ready(function() {
+        $(".navtoggler").click(function(){
+            $(this).siblings('.dropdown-content').toggleClass('activedropdown');
+        });
+   });
 // TOGGLE NAVBAR
 jQuery(function($){
 $('.navbar-toggle').click(function(e){
@@ -45,6 +47,8 @@ $('.dropdown2').removeClass('activedropdown');
 }
 })
 });
+
+
 
 // BACK 2 TOP BUTTON
 
