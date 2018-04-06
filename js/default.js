@@ -42,8 +42,7 @@ if(!$(e.target).closest('.navbar-toggle, .rightnav, .navbar-collapse').length){
 $('.navbar-collapse').removeClass('rightnav');
 $('.navbar-toggle').removeClass('indexcity');
 $('.hamburger').removeClass('is-active');
-$('.dropdown').removeClass('activedropdown');
-$('.dropdown2').removeClass('activedropdown');
+
 }
 })
 });

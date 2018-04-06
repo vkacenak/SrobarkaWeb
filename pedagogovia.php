@@ -11,7 +11,7 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
 
 <div class="photo-heading heading-aktivity bgNRCC">
   <div class="heading-wrapper">
-    <h1 class="w700 ">1. ROČNÍK</h1>
+    <h1 class="w700 ">Pedagogickí zamestnanci</h1>
 
   </div>
 </div>

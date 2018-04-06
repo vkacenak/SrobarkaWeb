@@ -46,11 +46,11 @@ CAROUSEL
   -->
   <div class="row">
   <div class="col-sm-12 doleziteodkazy w600 p6">
-      <a href="http://rozne.srobarka.sk/zast/zastupovanie/index.html"><button><img src="img/icons/icon-exchange.png">Suplovanie</button></a>
-      <a href="https://srobarka.edupage.org/timetable/?"><button><img src="img/icons/icon-calendar.png">Rozvrh hodín</button></a>
-      <a href="https://srobarka.edupage.org/"><button><img src="img/icons/icon-open-book.png">Edupage</button></a>
-      <a href="https://www.eskoly.sk/srobarova1/jedalen"><button><img src="img/icons/icon-circle.png">Jedálny lístok</button></a>
-      <a href=""><button><img src="img/icons/icon-email.png">Webmail</button></a>
+    <button>  <a href="http://rozne.srobarka.sk/zast/zastupovanie/index.html"><img src="img/icons/icon-exchange.png">Suplovanie</button></a>
+    <button>  <a href="https://srobarka.edupage.org/timetable/?"><img src="img/icons/icon-calendar.png">Rozvrh hodín</button></a>
+    <button>  <a href="https://srobarka.edupage.org/"><img src="img/icons/icon-open-book.png">Edupage</button></a>
+    <button>  <a href="https://www.eskoly.sk/srobarova1/jedalen"><img src="img/icons/icon-circle.png">Jedálny lístok</button></a>
+    <button>  <a href=""><img src="img/icons/icon-email.png">Webmail</button></a>
   </div>
 
 
@@ -308,7 +308,7 @@ a dokážu sa presadiť na trhu práce.
 
 <script>
 		$(document).ready(function(){
-			$('.dolessmore').dolessmore({lHeight : 100});
+			$('.dolessmore').dolessmore({lHeight : 150});
 		});
 	</script>
 
