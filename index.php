@@ -5,7 +5,7 @@
 <?php include 'db.php' ?>
 <link rel="stylesheet" type="text/css" href="css/triedy.css">
 <?php
-$query = "SELECT * FROM Articles LIMIT 4";
+$query = "SELECT * FROM w_news ORDER BY id DESC LIMIT 4 ";
 $articles = $db->query($query);
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
 ?>
@@ -74,25 +74,25 @@ CAROUSEL
 
     <?php if ($articles->num_rows > 0) {
             while($row = $articles->fetch_assoc()){
-            echo "<div class=row>
-                <div class=article>
+            echo "<div class='row'>
+                <div class='article'>
                   <div class=article-header p4 w300>
                  <h4>";
-              echo $row['ArticleHeader'] .
-              "</h4>
+              echo $row['subject'] .
+            "</h4>
                  </div>
-                    <div class=article-body dolessmore p4 w400>";
-              echo "<img src=img/Novinky/" . $row['Photo'] . ".jpg >";
-              echo "<p>" . $row['ArticleBody'] . "</p>";
+                    <div class='article-body dolessmore p4 w400'>";
+              echo "<img src=img/Novinky/" . $row['id_pict'] . ".jpg >";
+              echo "<p>" . $row['data'] . "</p>";
         echo "<div class=article-date>";
-                                  echo  $row['Date'];
+                                  echo "<p>" . $row['ts_edit'] . "</p>";
           echo  "                         </div>
                     </div>
                 </div>
               </div>";
 } } ?>
 
-
+<script src="js/lessmore.js"></script>
             </div>  <!--KONIEC RIADKU -->
 
             </div>  <!--KONIEC MAIN CONTENT -->
