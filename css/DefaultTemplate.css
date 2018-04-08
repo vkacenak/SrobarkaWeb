@@ -561,7 +561,7 @@ right: 0 !important;
   margin-left: 5px;
 }
 .footermiddle li a:active {
-  color: #7a0101;
+  color: ##7a0101;
 
 }
 .footerbottom {
@@ -586,7 +586,7 @@ right: 0 !important;
   margin-bottom: 15px;
 }
 
-@media only screen and ( max-width: 992px ) {
+@media only screen and ( max-width: 960px ) {
   .footerup {
     width: 100%;
     overflow: hidden;
@@ -648,6 +648,7 @@ right: 0 !important;
 .dropdownc-footerblock {
   display: block;
 }
+
 
 
 

@@ -27,6 +27,14 @@ $('.dropdown-content2', this).toggleClass('activedropdown');
 });
 
 $(document).ready(function() {
+        $(".footertoggler").click(function(){
+            $(this).siblings('.dropdownc-footer').toggleClass('dropdownc-footerblock');
+        });
+   });
+
+
+
+$(document).ready(function() {
         $(".navtoggler").click(function(){
             $(this).siblings('.dropdown-content').toggleClass('activedropdown');
         });
