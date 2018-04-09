@@ -471,7 +471,9 @@ right: 0 !important;
 ***************************************
 ***************************************/
 
-
+.footer {
+  width: 100%;
+}
 .footerup{
   background-color:#515151;
   color: #ffffff;
@@ -481,6 +483,9 @@ right: 0 !important;
   padding-top: 70px;
   padding-bottom: 60px;
   display: inline;
+  margin: 0px;
+
+
 
 
 }
@@ -499,7 +504,6 @@ right: 0 !important;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-
     font-weight: 500;
     letter-spacing: 3px;
     }
@@ -522,6 +526,7 @@ right: 0 !important;
   display: inline;
   padding-left: 65px;
   padding-right: 65px;
+  margin: 0px;
 
 }
 .footermiddle:nth-of-type(odd) {
@@ -571,6 +576,7 @@ right: 0 !important;
   background-color: #303030;
   padding-left: 30px;
   padding-right: 30px;
+  margin: 0px;
 
 }
 .bottominfo{
@@ -670,7 +676,7 @@ right: 0 !important;
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	background: #a30013 url(../img/cd-top-arrow.svg) no-repeat center 50%;
+	background: #7a0101 url(../img/cd-top-arrow.svg) no-repeat center 50%;
 	visibility: hidden;
 	opacity: 0;
 	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
