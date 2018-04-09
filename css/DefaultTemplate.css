@@ -17,7 +17,7 @@ font: 16px/16px "Montserrat", sans-serif;
 background-color: #fff;
 height: 100%;
 line-height: normal;
-
+overflow-x: hidden;
 
 }
 
@@ -257,7 +257,7 @@ COLLAPSED NAVBAR
 
 .navbar .navbar-brand img{
 	height: 100px;
-margin:10px;
+margin-top:10px;
 }
 
 nav  ul{
@@ -352,6 +352,7 @@ nav.navbar{height:70px;box-shadow: 0 0 2px 0 #000;}
 		overflow-y:scroll;
 		overflow-x: hidden;
 		background-color: black;
+    margin:0;
 	}
 
 
@@ -483,10 +484,14 @@ right: 0 !important;
   padding-top: 70px;
   padding-bottom: 70px;
   display: inline;
+<<<<<<< HEAD
   margin: 0px;
 
 
 
+=======
+margin:0;
+>>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
 
 }
 .textkontakt {
@@ -529,7 +534,11 @@ right: 0 !important;
   display: inline;
   padding-left: 65px;
   padding-right: 65px;
+<<<<<<< HEAD
   margin: 0px;
+=======
+  margin:0;
+>>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
 
 }
 .footermiddle:nth-of-type(odd) {
@@ -579,7 +588,11 @@ right: 0 !important;
   background-color: #303030;
   padding-left: 30px;
   padding-right: 30px;
+<<<<<<< HEAD
   margin: 0px;
+=======
+  margin:0;
+>>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
 
 }
 .bottominfo{

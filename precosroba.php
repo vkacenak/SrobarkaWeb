@@ -1,4 +1,4 @@
-<?php include 'navbar.html';?>
+<?php include 'navbar.php';?>
 <link rel="stylesheet" type="text/css" href="css/precosroba.css" media="screen" />
 
 <body>

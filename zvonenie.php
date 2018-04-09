@@ -1,4 +1,4 @@
-<?php include 'navbar.html';?>
+<?php include 'navbar.php';?>
 
 <link rel="stylesheet" type="text/css" href="css/zvonenie.css">
 <link href ="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">

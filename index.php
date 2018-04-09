@@ -1,17 +1,13 @@
 
 
-<?php include 'navbar.html';?>
-<?php include 'config.php' ?>
-<?php include 'db.php' ?>
-<link rel="stylesheet" type="text/css" href="css/triedy.css">
-<?php
-$query = "SELECT * FROM w_news ORDER BY id DESC LIMIT 4 ";
-$articles = $db->query($query);
-$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
-?>
+<?php include 'navbar.php';?>
+
+
 <!--
 CAROUSEL
 -->
+<body>
+<div class="row">
 <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
   <div class="overlay"></div>
@@ -40,6 +36,7 @@ CAROUSEL
     </div>
   </div>
 </div>
+</div>
 <div class="container">
   <!--
   DOLEŽITÉ ODKAZY
@@ -55,8 +52,15 @@ CAROUSEL
 
 
 </div>
+<?php include 'config.php' ?>
+<?php include 'db.php' ?>
+<?php
+$query = "SELECT * FROM w_news ORDER BY id DESC LIMIT 4 ";
+$articles = $db->query($query);
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
+?>
 
-
+<script src="js/lessmore.js"></script>
     <div class="row">
       <!-- STĹPEC S NOVINKAMI
      -->
@@ -75,6 +79,7 @@ CAROUSEL
     <?php if ($articles->num_rows > 0) {
             while($row = $articles->fetch_assoc()){
             echo "<div class='row'>
+            <div class='col-md-12'>
                 <div class='article'>
                   <div class='article-header p4 w300'>
                  <h4>";
@@ -82,21 +87,26 @@ CAROUSEL
             "</h4>
                  </div>
                     <div class='article-body dolessmore p4 w400'>";
-              echo "<img src=img/Novinky/" . $row['id_pict'] . ".jpg >";
+              echo "<img src='img/Novinky/" . $row['id_pict'] . ".jpg ''>";
               echo "<p>" . $row['data'] . "</p>";
+<<<<<<< HEAD
         echo "<div class='article-date'>";
+=======
+        echo "<div class='article-date'>'";
+>>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
                                   echo "<p>" . $row['ts_edit'] . "</p>";
           echo  "                         </div>
+                    </div>
                     </div>
                 </div>
               </div>";
 } } ?>
 
-<script src="js/lessmore.js"></script>
             </div>  <!--KONIEC RIADKU -->
 
             </div>  <!--KONIEC MAIN CONTENT -->
          </div>  <!--KONIEC HLAVNEHO COL V MAIN CONTENT-->
+
 
 
          <!-- OKNO S INFORMACIAMI
@@ -168,6 +178,7 @@ a dokážu sa presadiť na trhu práce.
         </div>
       </div>
 
+</div>
             <!-- ZAUJIMAVE CISLA
                -->
                <div class="row">
@@ -181,7 +192,7 @@ a dokážu sa presadiť na trhu práce.
     </div>
 </div>
 
-
+<div class="container">
 <div class="StudiumNaskole">
 <div class="row nadpis">
 <div class="col-sm-12">
@@ -242,6 +253,7 @@ a dokážu sa presadiť na trhu práce.
 </div>
 </div>
 
+</div>
 <div class="row StudiumStvorce">
 <a href="fotogaleria.html"><div class="col-sm-6 col-xs-12 col-md-3 stvorec prvy">
 <img src="img/odkazy/1.png" alt=""><p class="text-odkazy p2 w400">Galéria</p>
@@ -262,7 +274,7 @@ a dokážu sa presadiť na trhu práce.
 <img src="img/odkazy/4.png" alt=""><p class="text-odkazy p2 w400">Školská jedáleň</p>
 <p class="text-popis p4 w300">Najlepšia školská jedáleň <br> v Košiciach </p></div>
 </div>
-
+<div class="container">
 <div class:"row">
           <hr class="hr-text zriadovatel " width="95%" data-content="ZRIAĎOVATEĽ">
       </div>
@@ -289,14 +301,14 @@ a dokážu sa presadiť na trhu práce.
           </div>
 
 
-
-
-
-
-
-
-
 </div>
+
+
+
+
+
+
+
 
 
 <?php include 'footer.html';?>

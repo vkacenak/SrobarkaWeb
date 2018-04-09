@@ -24,7 +24,7 @@
 
 
 </head>
-<body>
+
 <nav class="navbar navbar-fixed-top" role="navigation">
 
    <!-- Logo a Hamburger Ikona -->
@@ -161,11 +161,13 @@
          <div class="dropdown-content">
           <div class="dropdown2"><a>Pravidelné aktivity</a>
               <div class="dropdown-content2">
-            <a href="kazdorocneaktivity.php">KOŽAZ</a>
-            <a href="kazdorocneaktivity.php">Lyžiarsky kurz</a>
-           <a href="kazdorocneaktivity.php">Kalamajky</a>
-            <a href="kazdorocneaktivity.php">enviromentálny týždeň</a>
-              <a href="kazdorocneaktivity.php">Stužková slávnosť</a>
+            <a href="kazdorocneaktivity.php#aktivity-kozaz">KOŽAZ</a>
+            <a href="kazdorocneaktivity.php#aktivity-lyziarskykurz">Lyžiarsky kurz</a>
+           <a href="kazdorocneaktivity.php#aktivity-kalamajky">Kalamajky</a>
+            <a href="kazdorocneaktivity.php#aktivity-enviromentalnyt">enviromentálny týždeň</a>
+                        <a href="kazdorocneaktivity.php#aktivity-protidrogovyt">Protidrogový týždeň</a>
+              <a href="kazdorocneaktivity.php#aktivity-stuzkova">Stužková slávnosť</a>
+            <a href="kazdorocneaktivity.php#aktivity-zberpapiera">Zber papiera</a>
           </div></div>
 
         <a href="studentskeslovo.php">Študentské slovo</a>
