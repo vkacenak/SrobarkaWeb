@@ -1,17 +1,13 @@
 
 
-<?php include 'navbar.html';?>
-<?php include 'config.php' ?>
-<?php include 'db.php' ?>
-<link rel="stylesheet" type="text/css" href="css/triedy.css">
-<?php
-$query = "SELECT * FROM w_news ORDER BY id DESC LIMIT 4 ";
-$articles = $db->query($query);
-$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
-?>
+<?php include 'navbar.php';?>
+
+
 <!--
 CAROUSEL
 -->
+<body>
+<div class="row">
 <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
   <div class="overlay"></div>
@@ -40,6 +36,7 @@ CAROUSEL
     </div>
   </div>
 </div>
+</div>
 <div class="container">
   <!--
   DOLEŽITÉ ODKAZY
@@ -55,8 +52,13 @@ CAROUSEL
 
 
 </div>
-
-
+<?php include 'config.php' ?>
+<?php include 'db.php' ?>
+<?php
+$query = "SELECT * FROM w_news ORDER BY id DESC LIMIT 4 ";
+$articles = $db->query($query);
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
+?>
     <div class="row">
       <!-- STĹPEC S NOVINKAMI
      -->
@@ -76,15 +78,15 @@ CAROUSEL
             while($row = $articles->fetch_assoc()){
             echo "<div class='row'>
                 <div class='article'>
-                  <div class=article-header p4 w300>
+                  <div class='article-header p4 w300'>
                  <h4>";
               echo $row['subject'] .
             "</h4>
                  </div>
                     <div class='article-body dolessmore p4 w400'>";
-              echo "<img src=img/Novinky/" . $row['id_pict'] . ".jpg >";
+              echo "<img src='img/Novinky/" . $row['id_pict'] . ".jpg ''>";
               echo "<p>" . $row['data'] . "</p>";
-        echo "<div class=article-date>";
+        echo "<div class='article-date'>'";
                                   echo "<p>" . $row['ts_edit'] . "</p>";
           echo  "                         </div>
                     </div>
@@ -97,6 +99,7 @@ CAROUSEL
 
             </div>  <!--KONIEC MAIN CONTENT -->
          </div>  <!--KONIEC HLAVNEHO COL V MAIN CONTENT-->
+
 
 
          <!-- OKNO S INFORMACIAMI

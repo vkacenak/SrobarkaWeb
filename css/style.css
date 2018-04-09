@@ -4,7 +4,8 @@
 CAROUSEL
 ***************************************
 ***************************************/
-.carousel{background-color: white;}
+.carousel{background-color: white;
+margin:0;}
 .fade-carousel {
     position: relative;
     height: 90vh;
