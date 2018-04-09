@@ -87,13 +87,9 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
             "</h4>
                  </div>
                     <div class='article-body dolessmore p4 w400'>";
-              echo "<img src='img/Novinky/" . $row['id_pict'] . ".jpg ''>";
+              echo "<img src='img/Novinky/" . $row['id_pict'] . ".jpg '>";
               echo "<p>" . $row['data'] . "</p>";
-<<<<<<< HEAD
         echo "<div class='article-date'>";
-=======
-        echo "<div class='article-date'>'";
->>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
                                   echo "<p>" . $row['ts_edit'] . "</p>";
           echo  "                         </div>
                     </div>
