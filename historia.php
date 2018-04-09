@@ -1,4 +1,4 @@
-<?php include 'navbar.html';?>
+<?php include 'navbar.php';?>
 
 <link rel="stylesheet" type="text/css" href="css/historiasrobarky.css">
 
@@ -59,5 +59,5 @@ Gymnázium Šrobárova 1 a vstúpilo do podoby, v akej ho poznáte dnes.</p></di
 </div>
 
           </div> <!-- KONIEC HLAVNEHO CONTAINERU -->
-          
+
 <?php include 'footer.html';?>

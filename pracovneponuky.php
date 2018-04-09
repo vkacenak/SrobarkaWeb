@@ -1,5 +1,5 @@
 
-<?php include 'navbar.html';?>
+<?php include 'navbar.php';?>
 
 <body>
   <div class="photo-heading heading-aktivity bgNRCC">

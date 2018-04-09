@@ -1,4 +1,4 @@
-<?php include 'navbar.html';?>
+<?php include 'navbar.php';?>
 
 <link rel="stylesheet" type="text/css" href="css/document.css">
 <link rel="stylesheet" type="text/css" href="css/maturita.css">

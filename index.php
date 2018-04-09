@@ -171,6 +171,7 @@ a dokážu sa presadiť na trhu práce.
         </div>
       </div>
 
+</div>
             <!-- ZAUJIMAVE CISLA
                -->
                <div class="row">
@@ -184,7 +185,7 @@ a dokážu sa presadiť na trhu práce.
     </div>
 </div>
 
-
+<div class="container">
 <div class="StudiumNaskole">
 <div class="row nadpis">
 <div class="col-sm-12">
@@ -245,6 +246,7 @@ a dokážu sa presadiť na trhu práce.
 </div>
 </div>
 
+</div>
 <div class="row StudiumStvorce">
 <a href="fotogaleria.html"><div class="col-sm-6 col-xs-12 col-md-3 stvorec prvy">
 <img src="img/odkazy/1.png" alt=""><p class="text-odkazy p2 w400">Galéria</p>
@@ -265,7 +267,7 @@ a dokážu sa presadiť na trhu práce.
 <img src="img/odkazy/4.png" alt=""><p class="text-odkazy p2 w400">Školská jedáleň</p>
 <p class="text-popis p4 w300">Najlepšia školská jedáleň <br> v Košiciach </p></div>
 </div>
-
+<div class="container">
 <div class:"row">
           <hr class="hr-text zriadovatel " width="95%" data-content="ZRIAĎOVATEĽ">
       </div>
@@ -292,7 +294,7 @@ a dokážu sa presadiť na trhu práce.
           </div>
 
 
-
+</div>
 
 
 

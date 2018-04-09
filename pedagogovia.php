@@ -1,4 +1,4 @@
-<?php include 'navbar.html';?>
+<?php include 'navbar.php';?>
 <?php include 'config.php' ?>
 <?php include 'db.php' ?>
 <link rel="stylesheet" type="text/css" href="css/triedy.css">
