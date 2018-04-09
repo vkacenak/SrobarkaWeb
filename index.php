@@ -276,7 +276,7 @@ a dokážu sa presadiť na trhu práce.
       </div>
 
       <div class="kskdiv">
-  <img src="img/ksk2.png" alt="" class="ksk2">
+  <img src="img/partneri/ksk2.png" alt="" class="ksk2">
 </div>
     <div class:"row partneri-nadpis">
               <hr class="hr-text " width="95%" data-content="PARTNERI ŠKOLY">
