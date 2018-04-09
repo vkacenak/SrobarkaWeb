@@ -1,0 +1,26 @@
+.gallery {
+  text-align: center;
+  margin-top: 10px;
+}
+.gallery-years {
+  height: 90%;
+  width: 90%;
+  margin: 30px 15px;
+  text-align: center;
+  background-color: #cccccc;
+
+}
+.gallery-years a{
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 280px;
+  color: #5e1111;
+}
+.gallery-years a:hover {
+  font-size: 90px;
+}
+@media (max-width: 992px){
+  .gallery-years {
+    margin: 30px 0;
+  }
+}
