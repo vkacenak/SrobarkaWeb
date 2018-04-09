@@ -17,7 +17,7 @@ font: 16px/16px "Montserrat", sans-serif;
 background-color: #fff;
 height: 100%;
 line-height: normal;
-overflow-x: hidden;
+
 
 }
 
@@ -484,14 +484,10 @@ right: 0 !important;
   padding-top: 70px;
   padding-bottom: 70px;
   display: inline;
-<<<<<<< HEAD
-  margin: 0px;
+  margin: 0;
 
 
 
-=======
-margin:0;
->>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
 
 }
 .textkontakt {
@@ -534,11 +530,7 @@ margin:0;
   display: inline;
   padding-left: 65px;
   padding-right: 65px;
-<<<<<<< HEAD
-  margin: 0px;
-=======
-  margin:0;
->>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
+  margin: 0;
 
 }
 .footermiddle:nth-of-type(odd) {
@@ -588,11 +580,7 @@ margin:0;
   background-color: #303030;
   padding-left: 30px;
   padding-right: 30px;
-<<<<<<< HEAD
-  margin: 0px;
-=======
-  margin:0;
->>>>>>> 6e35bd612ed82789ba3b2393a99a4c144a5877b8
+  margin: 0;
 
 }
 .bottominfo{
@@ -613,6 +601,7 @@ margin:0;
     width: 100%;
     overflow: hidden;
     text-align: center;
+    min-height: 400px;
   }
   .textkontakt {
     text-align: center;
