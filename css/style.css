@@ -119,13 +119,13 @@ margin:0;}
 .article-header h4{display:inline-block;
 	font-size: 14px;
 }
-.article-date{display:inline-block;
+.article-date {display:inline-block;
 float:right;
 color:grey;
 font-weight: 200;
 padding-right: 10px;}
 .article-date p{
-	color:white;
+	color:black;
 }
 
 .glyphicon, .glyphicon:hover, .glyphicon:active, .glyphicon:focus {color:#7a0101;}

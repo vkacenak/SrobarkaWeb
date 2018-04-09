@@ -17,7 +17,7 @@ font: 16px/16px "Montserrat", sans-serif;
 background-color: #fff;
 height: 100%;
 line-height: normal;
-
+overflow-x: hidden;
 
 }
 
@@ -482,7 +482,7 @@ right: 0 !important;
   padding-top: 70px;
   padding-bottom: 60px;
   display: inline;
-
+margin:0;
 
 }
 .textkontakt {
@@ -523,6 +523,7 @@ right: 0 !important;
   display: inline;
   padding-left: 65px;
   padding-right: 65px;
+  margin:0;
 
 }
 .footermiddle:nth-of-type(odd) {
@@ -572,6 +573,7 @@ right: 0 !important;
   background-color: #303030;
   padding-left: 30px;
   padding-right: 30px;
+  margin:0;
 
 }
 .bottominfo{

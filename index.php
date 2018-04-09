@@ -59,6 +59,8 @@ $query = "SELECT * FROM w_news ORDER BY id DESC LIMIT 4 ";
 $articles = $db->query($query);
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
 ?>
+
+<script src="js/lessmore.js"></script>
     <div class="row">
       <!-- STĹPEC S NOVINKAMI
      -->
@@ -77,6 +79,7 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
     <?php if ($articles->num_rows > 0) {
             while($row = $articles->fetch_assoc()){
             echo "<div class='row'>
+            <div class='col-md-12'>
                 <div class='article'>
                   <div class='article-header p4 w300'>
                  <h4>";
@@ -90,11 +93,11 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS);
                                   echo "<p>" . $row['ts_edit'] . "</p>";
           echo  "                         </div>
                     </div>
+                    </div>
                 </div>
               </div>";
 } } ?>
 
-<script src="js/lessmore.js"></script>
             </div>  <!--KONIEC RIADKU -->
 
             </div>  <!--KONIEC MAIN CONTENT -->
@@ -301,7 +304,7 @@ a dokážu sa presadiť na trhu práce.
 
 
 
-</div>
+
 
 <?php include 'footer.html';?>
 
