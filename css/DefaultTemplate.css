@@ -481,7 +481,7 @@ right: 0 !important;
   overflow: hidden;
   float: left;
   padding-top: 70px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   display: inline;
   margin: 0px;
 
@@ -490,10 +490,12 @@ right: 0 !important;
 
 }
 .textkontakt {
+  height:55px ;
   text-align: right;
   font-size: 25px;
-  line-height: 55px;
   font-weight: 600;
+  display: inline-block;
+
 }
 
 .footerkontakt {
@@ -506,6 +508,7 @@ right: 0 !important;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 3px;
+
     }
 .footerkontakt:hover {
   background-color:#515151;

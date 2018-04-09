@@ -76,7 +76,7 @@ CAROUSEL
             while($row = $articles->fetch_assoc()){
             echo "<div class='row'>
                 <div class='article'>
-                  <div class=article-header p4 w300>
+                  <div class='article-header p4 w300'>
                  <h4>";
               echo $row['subject'] .
             "</h4>
@@ -84,7 +84,7 @@ CAROUSEL
                     <div class='article-body dolessmore p4 w400'>";
               echo "<img src=img/Novinky/" . $row['id_pict'] . ".jpg >";
               echo "<p>" . $row['data'] . "</p>";
-        echo "<div class=article-date>";
+        echo "<div class='article-date'>";
                                   echo "<p>" . $row['ts_edit'] . "</p>";
           echo  "                         </div>
                     </div>
@@ -297,6 +297,7 @@ a dokážu sa presadiť na trhu práce.
 
 
 </div>
+
 
 <?php include 'footer.html';?>
 
