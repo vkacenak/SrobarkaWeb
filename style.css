@@ -4,8 +4,7 @@
 CAROUSEL
 ***************************************
 ***************************************/
-.carousel{background-color: white;
-margin:0;}
+.carousel{background-color: white;}
 .fade-carousel {
     position: relative;
     height: 90vh;
@@ -67,7 +66,6 @@ margin:0;}
 		width: 20%;
  border: none;
 }
-.doleziteodkazy a{color:black;}
 .doleziteodkazy button img{
 		max-height: 35px;
 		vertical-align: middle;
@@ -119,21 +117,17 @@ margin:0;}
 .article-header h4{display:inline-block;
 	font-size: 14px;
 }
-.article-date {display:inline-block;
+.article-date{display:inline-block;
 float:right;
 color:grey;
 font-weight: 200;
 padding-right: 10px;}
 .article-date p{
-	color:black;
+	color:white;
 }
 
 .glyphicon, .glyphicon:hover, .glyphicon:active, .glyphicon:focus {color:#7a0101;}
 .glyphicon-envelope, .glyphicon-envelope:hover, .glyphicon-envelope:active, .glyphicon-envelope:focus{color:black;}
-.glyphicon-paperclip{padding-right: 10px;
-color:white;}
-.nav a:hover .glyphicon-paperclip{color: #7a0101; transition-duration: 0.5s;}
-
 .article-body p{
 	line-height: 1.1;
 	padding: 15px;
@@ -688,10 +682,6 @@ height:50vh;
 #aktivity-kozaz{   background-image: url("../img/kazdorocneAktivity/Kozaz.jpg");}
 #aktivity-stuzkova{     background-image: url("../img/kazdorocneAktivity/stuzkova.jpg");}
 #aktivity-lyziarsky{    background-image: url("../img/kazdorocneAktivity/lyziarsky.jpg");}
-#aktivity-kalamajky{    background-image: url("../img/kazdorocneAktivity/kalamajky-head.jpg");}
-#aktivity-protidrogovyt{    background-image: url("../img/kazdorocneAktivity/tyzdenbeneficie.jpg");}
-#aktivity-enviromentalnyt{    background-image: url("../img/kazdorocneAktivity/eco.jpg");}
-#aktivity-zberpapiera{    background-image: url("../img/kazdorocneAktivity/zber.jpg");}
 .aktivity-item{
   cursor:pointer;
 
@@ -805,6 +795,7 @@ text-align:center;}
  top: 40%;
  transform: translateY(-50%);}
 }
+
 
 /*************************************
 **************************************

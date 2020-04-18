@@ -1,0 +1,26 @@
+/*************************************
+**************************************
+PREDMETY
+***************************************
+***************************************/
+
+
+.PredmetyBox{width:80%;
+margin:100px auto;
+height:100%;
+ position: relative; }
+
+.predmet{
+margin-left:auto;margin-right:auto;
+text-align: center;
+line-height: 1;
+color:black;
+padding-top: 50px;
+position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.predmet img{max-width: 45%;}
+.predmet p{margin: 25px 0;}
+.predmet:hover { top: -10px;}
+@media (max-width: 800px){.predmet p{margin: 15px 0;}}
